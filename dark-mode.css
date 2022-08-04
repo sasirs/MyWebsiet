@@ -1,0 +1,43 @@
+.form-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+[data-theme="light"] {
+  background-color: white !important;
+  font-weight: bolder !important;
+  color: black;
+}
+
+[data-theme="light"] .text-light {
+  color: #333 !important;
+}
+[data-theme="light"] .heading {
+  border-bottom: 2px solid black;
+}
+[data-theme="light"] .contact .form-control {
+  background: var(--white);
+  border: 1px solid var(--white);
+}
+[data-theme="light"] .skills .sbox {
+  background-color: var(--white);
+}
+[data-theme="light"] .single-box {
+  background-color: var(--white);
+}
+[data-theme="light"] svg.radial-progress text {
+  fill: var(--bg);
+}
+[data-theme="light"] .education .yr {
+  color: var(--bg);
+  background-color: var(--white);
+}
+[data-theme="light"] .box {
+  background: var(--white);
+}
+[data-theme="light"].counter p {
+  color: var(--bg);
+}
+[data-theme="light"].hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
