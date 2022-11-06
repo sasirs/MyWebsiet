@@ -54,6 +54,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
+  margin-top: 60px;
   border: 7px solid var(--green);
 }
 .header .name {
@@ -68,9 +69,13 @@ html::-webkit-scrollbar-thumb {
 }
 .navbar .btn {
   display: none;
-  font-size: 22px;
+  font-size: 20px;
   background: var(--bg);
   color: var(--white);
+}
+.navbar ul{
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 .navbar ul li a {
   display: block;
@@ -86,6 +91,8 @@ html::-webkit-scrollbar-thumb {
   background: var(--green);
   color: var(--white);
 }
+
+
 /* end header */
 /* Home style */
 .home {
@@ -433,7 +440,7 @@ img.hover-shadow {
 /* theme for desktop */
 .theme1 {
   position: fixed;
-  bottom: 10px;
+  bottom: 5px;
   display: flex;
   cursor: pointer;
 }
@@ -482,6 +489,10 @@ img.hover-shadow {
 }
 #myBtn i {
   transform: rotate(313deg);
+}
+
+.Worked span {
+  color: var(--green);
 }
 
 @media (max-width: 570px) {
