@@ -13,8 +13,14 @@
     <link rel="stylesheet" href="dark-mode.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="./style.js"></script>
+    <script src="./resume.js"></script>
     <!-- text fade animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("resume_id").href = resume_link;
+      })
+    </script>
   </head>
 
   <body class="body">
@@ -99,7 +105,9 @@
               <h3><span class="text-light">Qualification : </span>BE-Computer Science and Engineering</h3>
               <h3><span class="text-light">Post : </span>MTS software Engineer Trainee</h3>
               <h3><span class="text-light">Language : </span>Tamil & English</h3>
-              <a href="./img/Sasikumar_.pdf" class="about_btn" download="Resume"><button class="btn mt-4 mb-5 d-flex justify-content-center"><i class="fas fa-download pe-2"></i> Download CV</button></a>
+              <!-- <a href="./img/Sasikumar_.pdf" class="about_btn" download="Resume"><button class="btn mt-4 mb-5 d-flex justify-content-center"><i class="fas fa-download pe-2"></i> Download CV</button></a> -->
+              <a href="./img/Sasikumar_.pdf" id="resume_id" class="about_btn" download="Resume"><button class="btn mt-4 mb-5 d-flex justify-content-center"><i class="fas fa-download pe-2"></i> Download CV</button></a>
+              <!-- <a href="" id="resume_id"><i class="fas fa-download pe-2"></i> Download CV</button></a> -->
             </div>
           </div>
           <div class="col counter text-center">
