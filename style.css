@@ -73,7 +73,7 @@ html::-webkit-scrollbar-thumb {
   background: var(--bg);
   color: var(--white);
 }
-.navbar ul{
+.navbar ul {
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -91,7 +91,6 @@ html::-webkit-scrollbar-thumb {
   background: var(--green);
   color: var(--white);
 }
-
 
 /* end header */
 /* Home style */
@@ -166,6 +165,9 @@ html::-webkit-scrollbar-thumb {
   background: var(--bg);
 }
 .box:hover {
+  box-shadow: 0 4px 8px 0 var(--green), 0 6px 20px 0 var(--green);
+}
+.hovered {
   box-shadow: 0 4px 8px 0 var(--green), 0 6px 20px 0 var(--green);
 }
 .counter span {

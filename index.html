@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -11,23 +12,25 @@
     <link rel="shortcut icon" type="image" href="./img/logo2.png">
     <link rel="stylesheet" href="dark-mode.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./style.js"></script>
     <!-- text fade animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
-  <body class="body"> 
+
+  <body class="body">
     <!-- light mode  -->
     <div class="form-check form-switch">
-      <input type="checkbox" class="form-check-input" id="darkSwitch" ></input>
+      <input type="checkbox" class="form-check-input" id="darkSwitch"></input>
       <label class="custom-control-label text-light fw-bolder" for="darkSwitch" id="dark_label">light Mode</label>
     </div>
     <!-- scroll top  -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"  data-bs-toggle="tooltip" data-bs-placement="right" title="go ot top"><i class="fas fa-rocket"></i></button>
-     <!--main section  -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top" data-bs-toggle="tooltip" data-bs-placement="right" title="go ot top"><i class="fas fa-rocket"></i></button>
+    <!--main section  -->
     <div class="container-fluid">
       <!-- navbar section -->
       <div class="header h-100 text-center d-sm-flex">
         <div class="user">
-          <img src="./img/sasi1.jpg" class="img-fluid" loading="lazy"  alt="sasi" />
+          <img src="./img/Profile_final.png" class="img-fluid" loading="lazy" alt="sasi" />
           <h3 class="name fs-2 fw-bolder">SasiKumar</h3>
           <p class="post fs-5">MTS Trianee Engineer</p>
         </div>
@@ -39,7 +42,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
-              <!-- <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#Worked">Where I’ve Worked</a>
               </li> -->
             <li class="nav-item">
@@ -55,65 +58,61 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          
+
         </div>
         <!-- theme for desktop -->
         <div class="theme1">
-          <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme" > </button>
-          <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme" > </button>
-          <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme" > </button>
-          <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme" > </button>
-          <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme" > </button>
-          <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme" > </button>
+          <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme"> </button>
+          <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme"> </button>
+          <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme"> </button>
+          <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme"> </button>
+          <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme"> </button>
+          <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme"> </button>
         </div>
       </div>
       <!-- home -->
       <div class="home text-light" id="home">
         <h3 class="text-light">HI THERE !</h3>
         <h1 class="text-light">I'M <span id='text'> </span></h1>
-        <p class="text-light">I’m a software engineer specializing in building web application. Currently, I’m focused on building accessible, human-centered products at Jaamoon</p>
-        <a href="#about" class="about_btn"
-          ><button class="btn "><i class="fas fa-user"></i> About Me</button></a
-        >
+        <p class="text-light">I am a dedicated software engineer with expertise in crafting dynamic web applications. My current focus lies in developing user-centric and accessible products at Jaamoon, where I contribute my skills to create innovative solutions that seamlessly align with user needs. Passionate about delivering exceptional user experiences, I bring a meticulous approach to software engineering to ensure the development of robust and user-friendly applications</p>
+        <a href="#about" class="about_btn"><button class="btn "><i class="fas fa-user"></i> About Me</button></a>
       </div>
       <!-- about -->
       <div class="about text-light" id="about">
-        <div class="heading">      
-         <h1 class="m-2 p-4"  data-aos="fade-down"><span>About </span>Me</h1>
+        <div class="heading">
+          <h1 class="m-2 p-4" data-aos="fade-down"><span>About </span>Me</h1>
         </div>
         <div class="row p-5">
-            <p>Hello! My name is Sasikumar, and I enjoy facing and solving coding challenges every day.
-              I'm not interested in doing the same thing every day because it's very boring.
-              My interest in developing something new on the internet began in 2022, when I chose to begin coding in my school days. At the time, I was learning we development, which taught me a lot about coding before moving on to java. 
-            </p>
-            <p>
-                Fast-forward to today, and I’ve had the privilege of working at an Tejosma Technology, a start-up, a huge corporation. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
-            </p>
+          <p>Hello! My name is Sasikumar, and I enjoy facing and solving coding challenges every day.
+            I'm not interested in doing the same thing every day because it's very boring.
+            My interest in developing something new on the internet began in 2022, when I chose to begin coding in my school days. At the time, I was learning we development, which taught me a lot about coding before moving on to java.
+          </p>
+          <p>
+            Fast-forward to today, and I’ve had the privilege of working at an Tejosma Technology, a start-up, a huge corporation. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
+          </p>
         </div>
         <div class="row p-5">
           <div class="col">
             <div class="info">
               <h3><span class="text-light">Name : </span>Sasikumar</h3>
-              <h3><span class="text-light">Age : </span>22</h3>
+              <h3><span class="text-light">Age : </span>23</h3>
               <h3><span class="text-light">Qualification : </span>BE-Computer Science and Engineering</h3>
               <h3><span class="text-light">Post : </span>MTS software Engineer Trainee</h3>
               <h3><span class="text-light">Language : </span>Tamil & English</h3>
-              <a href="./img/Sasikumar_.pdf"  class="about_btn" download="Resume"
-                ><button class="btn mt-4 mb-5 d-flex justify-content-center"><i class="fas fa-download pe-2"></i> Download CV</button></a
-              >
+              <a href="./img/Sasikumar_.pdf" class="about_btn" download="Resume"><button class="btn mt-4 mb-5 d-flex justify-content-center"><i class="fas fa-download pe-2"></i> Download CV</button></a>
             </div>
           </div>
           <div class="col counter text-center">
             <div class="row g-4">
               <div class="col">
-                <div class="p-3 box">
+                <div class="p-3 box" id="sasss">
                   <span>10+</span>
                   <p class="">Certificates</p>
                 </div>
               </div>
               <div class="col">
                 <div class="p-3 box">
-                  <span>5+</span>
+                  <span>10+</span>
                   <p class="">Projects</p>
                 </div>
               </div>
@@ -137,8 +136,8 @@
       </div>
       <!-- worked -->
       <div class="Worked text-light" id="Worked">
-        <div class="heading">      
-         <h1 class="m-2 p-4"  data-aos="fade-down"><span>Where I’ve</span>Worked</h1>
+        <div class="heading">
+          <h1 class="m-2 p-4" data-aos="fade-down"><span>Where I’ve</span>Worked</h1>
         </div>
         <div class="row Worked_row p-5">
           <div class="col-2">
@@ -151,14 +150,32 @@
               <h5>MTS Engineer <span> @ Tejosma</span></h5>
               <p class="fs-6">Sep 2022 - present</p>
             </div>
-                <ul>
-                  <li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
-                  <li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
-                  <li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
-                </ul>
+            <ul>
+              <li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
+              <li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
+              <li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
+            </ul>
           </div>
         </div>
-     
+        <div class="row Worked_row p-5">
+          <div class="col-2">
+          </div>
+          <div class="col-2">
+            <h5><span>Palle</span></h5>
+          </div>
+          <div class="col-8">
+            <div class="ps-4">
+              <h5>Java Full Stack Developer Trainee Engineer <span> @ Palle</span></h5>
+              <p class="fs-6">Feb 2022 - Aug 2022</p>
+            </div>
+            <ul>
+              <li>Proficient in HTML, CSS, and JavaScript for creating user-friendly web interfaces.</li>
+              <li>Familiar with Java and Spring Boot, specializing in RESTful API development.</li>
+              <li>Skilled in relational databases, including schema design and SQL queries.</li>
+            </ul>
+          </div>
+        </div>
+
         <!-- <div class="row p-5">
           <div class="col">
             <i class="fas fa-graduation-cap"></i>
@@ -171,253 +188,258 @@
         </div> -->
       </div>
     </div>
-      <!-- education -->
-      <div class="education" id="education">
-        <div class="heading">
-          <h1 class=" m-5 p-4 text-light" data-aos="fade-down">My <span>Education </span></h1>
-        </div>
-        <div class="row g-4">
-          <div class="col">
-            <i class="fas fa-graduation-cap"></i>
-            <div class="ebox">
-              <span class="yr">2022</span>
-              <h3 class="text-light">Bachelor of Engineering (B.E)</h3>
-              <p class="text-light">Computer Science and Engineering in PSV College Of Engineering and Technology , Krishnagiri with a 8.3 CGPA  </br> in First Class .</p>
-            </div>
-          </div>
-          <div class="col">
-            <i class="fas fa-graduation-cap"></i>
-            <div class="ebox">
-              <span class="yr">2018</span>
-              <h3 class="text-light">Higher Secondary Certificate (HSC)</h3>
-              <p class="text-light">Higher Secondary done in State Bord Of Tamilnadu from Government Boys Higher Secondary School , Madavalam  </br> with an 77 % of Result .</p>
-            </div>
+    <!-- education -->
+    <div class="education" id="education">
+      <div class="heading">
+        <h1 class=" m-5 p-4 text-light" data-aos="fade-down">My <span>Education </span></h1>
+      </div>
+      <div class="row g-4">
+        <div class="col">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="ebox">
+            <span class="yr">2022</span>
+            <h3 class="text-light">Bachelor of Engineering (B.E)</h3>
+            <p class="text-light">Computer Science and Engineering in PSV College Of Engineering and Technology , Krishnagiri with a 8.3 CGPA </br> in First Class .</p>
           </div>
         </div>
-        <div class="row g-4">
-          <div class="col">
-            <i class="fas fa-graduation-cap"></i>
-            <div class="ebox">
-              <span class="yr">2016</span>
-              <h3 class="text-light">Secondary School Leaving Certificate (SSLC)</h3>
-              <p class="text-light">Secondary School done in State Bord Of Tamilnadu from Government Boys Higher Secondary School , Madavalam </br> with an 92% of Result .</p>
-            </div>
-          </div>
-          <div class="col">
-            <i class="fas fa-graduation-cap"></i>
-            <div class="ebox">
-              <span class="yr">2014</span>
-              <h3 class="text-light mt-3">Middle School</h3></br>
-              <p class="text-light">Middle School (1-8) done in my Own Town , Pachayat Union Middle School , Pichanoor with an 99 percentage of </br>Result .</p>
-            </div>
+        <div class="col">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="ebox">
+            <span class="yr">2018</span>
+            <h3 class="text-light">Higher Secondary Certificate (HSC)</h3>
+            <p class="text-light">Higher Secondary done in State Bord Of Tamilnadu from Government Boys Higher Secondary School , Madavalam </br> with an 77 % of Result .</p>
           </div>
         </div>
       </div>
-      <!-- skills -->
-      <div class="skills text-light" id="skills">
-        <div class="heading">
-          <h1 class=" m-5 p-4 text-light" data-aos="fade-down"><span>Skills </span>Known</h1>
-        </div>
-        <div class="row g-4">
-          <div class="col-md-3">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 5"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">99%</text>
-              </svg>
-              <h5 class="text-center">HTML</h5>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 10"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
-              </svg>
-              <h5 class="text-center">CSS</h5>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 5"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
-              </svg>
-              <h5 class="text-center">Bootstrap</h5>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 190"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">20%</text>
-              </svg>
-              <h5 class="text-center">JavaScript</h5>
-            </div>
+      <div class="row g-4">
+        <div class="col">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="ebox">
+            <span class="yr">2016</span>
+            <h3 class="text-light">Secondary School Leaving Certificate (SSLC)</h3>
+            <p class="text-light">Secondary School done in State Bord Of Tamilnadu from Government Boys Higher Secondary School , Madavalam </br> with an 92% of Result .</p>
           </div>
         </div>
-        <div class="row g-4">
-          <div class="col-md-3">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 0"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">100%</text>
-              </svg>
-              <h5 class="text-center">JAVA</h5>
-            </div>
+        <div class="col">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="ebox">
+            <span class="yr">2014</span>
+            <h3 class="text-light mt-3">Middle School</h3></br>
+            <p class="text-light">Middle School (1-8) done in my Own Town , Pachayat Union Middle School , Pichanoor with an 99 percentage of </br>Result .</p>
           </div>
-          <div class="col-md-3">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 30"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
-              </svg>
-              <h5 class="text-center">Python</h5>
-            </div>
+        </div>
+      </div>
+    </div>
+    <!-- skills -->
+    <div class="skills text-light" id="skills">
+      <div class="heading">
+        <h1 class=" m-5 p-4 text-light" data-aos="fade-down"><span>Skills </span>Known</h1>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNFNjUxMDAiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRjZEMDAiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjQsMjV2LTRoOC42bC0wLjcsMTEuNUwyNCwzNS4xdi00LjJsNC4xLTEuNGwwLjMtNC41SDI0eiBNMzIuOSwxN2wwLjMtNEgyNHY0SDMyLjl6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDMwLjl2NC4ybC03LjktMi42TDE1LjcsMjdoNGwwLjIsMi41TDI0LDMwLjl6IE0xOS4xLDE3SDI0di00aC05LjFsMC43LDEySDI0di00aC00LjZMMTkuMSwxN3oiPjwvcGF0aD4KPC9zdmc+" />
+
+            <h5 class="text-center">HTML</h5>
           </div>
-          <div class="col-md-3">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 30"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
-              </svg>
-              <h5 class="text-center">C</h5>
-            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiMwMjc3QkQiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMzlCRTUiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMzMuMSAxM0wyNCAxMyAyNCAxNyAyOC45IDE3IDI4LjYgMjEgMjQgMjEgMjQgMjUgMjguNCAyNSAyOC4xIDI5LjUgMjQgMzAuOSAyNCAzNS4xIDMxLjkgMzIuNSAzMi42IDIxIDMyLjYgMjF6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDEzdjRoLTguOWwtMC4zLTRIMjR6IE0xOS40LDIxbDAuMiw0SDI0di00SDE5LjR6IE0xOS44LDI3aC00bDAuMyw1LjVsNy45LDIuNnYtNC4ybC00LjEtMS40TDE5LjgsMjd6Ij48L3BhdGg+Cjwvc3ZnPg==" />
+            <h5 class="text-center">CSS</h5>
           </div>
-          <div class="col">
-            <div class="p-3 sbox d-grid justify-content-center">
-              <svg class="radial-progress text-light" data-percentage="82" viewBox="0 0 80 80">
-                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 50"></circle>
-                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
-              </svg>
-              <h5 class="text-center">MySql</h5>
-            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiM3YzRkZmYiIGQ9Ik03LjM3MywxMS40NDNDNy4yOTMsOS4xMzIsOS4wOTQsNywxMS41MjksN2gyNC45NDZjMi40MzUsMCw0LjIzNiwyLjEzMiw0LjE1NSw0LjQ0MwljLTAuMDc3LDIuMjIxLDAuMDIzLDUuMDk3LDAuNzQ3LDcuNDQzYzAuNzI2LDIuMzUzLDEuOTUxLDMuODQsMy45NTcsNC4wMzF2Mi4xNjdjLTIuMDA2LDAuMTkxLTMuMjMsMS42NzgtMy45NTcsNC4wMzEJYy0wLjcyNCwyLjM0NS0wLjgyNCw1LjIyMi0wLjc0Nyw3LjQ0M0M0MC43MSwzOC44NjgsMzguOTA5LDQxLDM2LjQ3NSw0MUgxMS41MjljLTIuNDM0LDAtNC4yMzYtMi4xMzItNC4xNTUtNC40NDMJYzAuMDc3LTIuMjIxLTAuMDIzLTUuMDk3LTAuNzQ3LTcuNDQzYy0wLjcyNi0yLjM1My0xLjk1NC0zLjg0LTMuOTYtNC4wMzF2LTIuMTY3YzIuMDA2LTAuMTkxLDMuMjMzLTEuNjc4LDMuOTYtNC4wMzEJQzcuMzUsMTYuNTQsNy40NTEsMTMuNjY0LDcuMzczLDExLjQ0M3oiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjcuMDczLDIzLjQ2NHYtMC4wMjhjMS44NTMtMC4zMiwzLjI5OS0yLjA1NywzLjI5OS0zLjk3YzAtMS4zNTItMC41Mi0yLjQ5OC0xLjUwNC0zLjMxMgljLTAuOTgxLTAuODEyLTIuMzU3LTEuMjQxLTMuOTgxLTEuMjQxSDE3LjQ1VjMzLjA4aDcuNDc1YzEuOTQyLDAsMy41NTUtMC40NzQsNC42NjMtMS4zNzJjMS4xMDktMC44OTksMS42OTYtMi4yMDcsMS42OTYtMy43ODMJQzMxLjI4MywyNS41NDQsMjkuNTkzLDIzLjc1NiwyNy4wNzMsMjMuNDY0eiBNMjMuNTksMjIuNjA4aC0zLjE4MVYxNy4yOWgzLjc4NGMyLjA3NiwwLDMuMjE5LDAuOTExLDMuMjE5LDIuNTY1CUMyNy40MTMsMjEuNjMsMjYuMDU1LDIyLjYwOCwyMy41OSwyMi42MDh6IE0yMC40MDksMjQuODM0aDMuNzU5YzIuNzE2LDAsNC4wOTIsMC45ODEsNC4wOTIsMi45MTZjMCwxLjkzMi0xLjM1NywyLjk1My0zLjkyNSwyLjk1MwloLTMuOTI2VjI0LjgzNHoiPjwvcGF0aD4KPC9zdmc+" />
+            <h5 class="text-center">Bootstrap</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNmZmQ2MDAiIGQ9Ik02LDQyVjZoMzZ2MzZINnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDAwMDAxIiBkPSJNMjkuNTM4IDMyLjk0N2MuNjkyIDEuMTI0IDEuNDQ0IDIuMjAxIDMuMDM3IDIuMjAxIDEuMzM4IDAgMi4wNC0uNjY1IDIuMDQtMS41ODUgMC0xLjEwMS0uNzI2LTEuNDkyLTIuMTk4LTIuMTMzbC0uODA3LS4zNDRjLTIuMzI5LS45ODgtMy44NzgtMi4yMjYtMy44NzgtNC44NDEgMC0yLjQxIDEuODQ1LTQuMjQ0IDQuNzI4LTQuMjQ0IDIuMDUzIDAgMy41MjguNzExIDQuNTkyIDIuNTczbC0yLjUxNCAxLjYwN2MtLjU1My0uOTg4LTEuMTUxLTEuMzc3LTIuMDc4LTEuMzc3LS45NDYgMC0xLjU0NS41OTctMS41NDUgMS4zNzcgMCAuOTY0LjYgMS4zNTQgMS45ODUgMS45NTFsLjgwNy4zNDRDMzYuNDUyIDI5LjY0NSAzOCAzMC44MzkgMzggMzMuNTIzIDM4IDM2LjQxNSAzNS43MTYgMzggMzIuNjUgMzhjLTIuOTk5IDAtNC43MDItMS41MDUtNS42NS0zLjM2OEwyOS41MzggMzIuOTQ3ek0xNy45NTIgMzMuMDI5Yy41MDYuOTA2IDEuMjc1IDEuNjAzIDIuMzgxIDEuNjAzIDEuMDU4IDAgMS42NjctLjQxOCAxLjY2Ny0yLjA0M1YyMmgzLjMzM3YxMS4xMDFjMCAzLjM2Ny0xLjk1MyA0Ljg5OS00LjgwNSA0Ljg5OS0yLjU3NyAwLTQuNDM3LTEuNzQ2LTUuMTk1LTMuMzY4TDE3Ljk1MiAzMy4wMjl6Ij48L3BhdGg+Cjwvc3ZnPg==" />
+            <h5 class="text-center">JavaScript</h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg"
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNkNDNhMDIiIGQ9Ik0yMy42NSwyNC44OThjLTAuOTk4LTEuNjA5LTEuNzIyLTIuOTQzLTIuNzI1LTUuNDU1QzE5LjIyOSwxNS4yLDMxLjI0LDExLjM2NiwyNi4zNywzLjk5OQljMi4xMTEsNS4wODktNy41NzcsOC4yMzUtOC40NzcsMTIuNDczQzE3LjA3LDIwLjM3LDIzLjY0NSwyNC44OTgsMjMuNjUsMjQuODk4eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNkNDNhMDIiIGQ9Ik0yMy44NzgsMTcuMjdjLTAuMTkyLDIuNTE2LDIuMjI5LDMuODU3LDIuMjk5LDUuNjk1YzAuMDU2LDEuNDk2LTEuNDQ3LDIuNzQzLTEuNDQ3LDIuNzQzCXMyLjcyOC0wLjUzNiwzLjU3OS0yLjgxOGMwLjk0NS0yLjUzNC0xLjgzNC00LjI2OS0xLjU0OC02LjI5OGMwLjI2Ny0xLjkzOCw2LjAzMS01LjU0Myw2LjAzMS01LjU0M1MyNC4zMTEsMTEuNjExLDIzLjg3OCwxNy4yN3oiPjwvcGF0aD48bGluZWFyR3JhZGllbnQgaWQ9IlA5dWpRSmd6N1hOOVFibnk5UzY0SGFfUGQyeDlHV3U5b3ZYX2dyMSIgeDE9IjIyLjY3NyIgeDI9IjMwLjczNyIgeTE9IjIxLjE3NCIgeTI9IjQzLjMxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzVjNjVkNiI+PC9zdG9wPjxzdG9wIG9mZnNldD0iLjk5OSIgc3RvcC1jb2xvcj0iIzQ2NGViMCI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNQOXVqUUpnejdYTjlRYm55OVM2NEhhX1BkMng5R1d1OW92WF9ncjEpIiBkPSJNMzIuMDg0LDI1LjA1NWMxLjc1NC0wLjM5NCwzLjIzMywwLjcyMywzLjIzMywyLjAxYzAsMi45MDEtNC4wMjEsNS42NDMtNC4wMjEsNS42NDMgczYuMjI1LTAuNzQyLDYuMjI1LTUuNTA1QzM3LjUyMSwyNC4wNTMsMzQuNDY0LDIzLjI2NiwzMi4wODQsMjUuMDU1eiBNMjkuMTI5LDI3LjM5NWMwLDAsMS45NDEtMS4zODMsMi40NTgtMS45MDIgYy00Ljc2MywxLjAxMS0xNS42MzgsMS4xNDctMTUuNjM4LDAuMjY5YzAtMC44MDksMy41MDctMS42MzgsMy41MDctMS42MzhzLTcuNzczLTAuMTEyLTcuNzczLDIuMTgxIEMxMS42ODMsMjguNjk1LDIxLjg1OCwyOC44NjYsMjkuMTI5LDI3LjM5NXoiPjwvcGF0aD48bGluZWFyR3JhZGllbnQgaWQ9IlA5dWpRSmd6N1hOOVFibnk5UzY0SGJfUGQyeDlHV3U5b3ZYX2dyMiIgeDE9IjE5LjQ5OCIgeDI9IjI3LjI5NiIgeTE9IjIyLjc3IiB5Mj0iNDQuMTk2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNWM2NWQ2Ij48L3N0b3A+PHN0b3Agb2Zmc2V0PSIuOTk5IiBzdG9wLWNvbG9yPSIjNDY0ZWIwIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48cGF0aCBmaWxsPSJ1cmwoI1A5dWpRSmd6N1hOOVFibnk5UzY0SGJfUGQyeDlHV3U5b3ZYX2dyMikiIGQ9Ik0yNy45MzUsMjkuNTcxIGMtNC41MDksMS40OTktMTIuODE0LDEuMDItMTAuMzU0LTAuOTkzYy0xLjE5OCwwLTIuOTc0LDAuOTYzLTIuOTc0LDEuODg5YzAsMS44NTcsOC45ODIsMy4yOTEsMTUuNjMsMC41NzJMMjcuOTM1LDI5LjU3MXoiPjwvcGF0aD48bGluZWFyR3JhZGllbnQgaWQ9IlA5dWpRSmd6N1hOOVFibnk5UzY0SGNfUGQyeDlHV3U5b3ZYX2dyMyIgeDE9IjE4LjY5OCIgeDI9IjI2LjU5IiB5MT0iMjMuNDU1IiB5Mj0iNDUuMTQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1YzY1ZDYiPjwvc3RvcD48c3RvcCBvZmZzZXQ9Ii45OTkiIHN0b3AtY29sb3I9IiM0NjRlYjAiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjUDl1alFKZ3o3WE45UWJueTlTNjRIY19QZDJ4OUdXdTlvdlhfZ3IzKSIgZD0iTTE4LjY4NiwzMi43MzkgYy0xLjYzNiwwLTIuNjk1LDEuMDU0LTIuNjk1LDEuODIyYzAsMi4zOTEsOS43NiwyLjYzMiwxMy42MjcsMC4yMDVsLTIuNDU4LTEuNjMyQzI0LjI3MSwzNC40MDQsMTcuMDE0LDM0LjU3OSwxOC42ODYsMzIuNzM5eiI+PC9wYXRoPjxsaW5lYXJHcmFkaWVudCBpZD0iUDl1alFKZ3o3WE45UWJueTlTNjRIZF9QZDJ4OUdXdTlvdlhfZ3I0IiB4MT0iMTguMDMiIHgyPSIyNS44NjEiIHkxPSIyNC4xOTgiIHkyPSI0NS43MTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1YzY1ZDYiPjwvc3RvcD48c3RvcCBvZmZzZXQ9Ii45OTkiIHN0b3AtY29sb3I9IiM0NjRlYjAiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjUDl1alFKZ3o3WE45UWJueTlTNjRIZF9QZDJ4OUdXdTlvdlhfZ3I0KSIgZD0iTTM2LjI4MSwzNi42MzIgYzAtMC45MzYtMS4wNTUtMS4zNzctMS40MzMtMS41ODhjMi4yMjgsNS4zNzMtMjIuMzE3LDQuOTU2LTIyLjMxNywxLjc4NGMwLTAuNzIxLDEuODA3LTEuNDI3LDMuNDc3LTEuMDkzbC0xLjQyLTAuODM5IEMxMS4yNiwzNC4zNzQsOSwzNS44MzcsOSwzNy4wMTdDOSw0Mi41MiwzNi4yODEsNDIuMjU1LDM2LjI4MSwzNi42MzJ6Ij48L3BhdGg+PGxpbmVhckdyYWRpZW50IGlkPSJQOXVqUUpnejdYTjlRYm55OVM2NEhlX1BkMng5R1d1OW92WF9ncjUiIHgxPSIyMC43MjUiIHgyPSIyOC4yMjgiIHkxPSIyNC41ODIiIHkyPSI0NS4xOTciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1YzY1ZDYiPjwvc3RvcD48c3RvcCBvZmZzZXQ9Ii45OTkiIHN0b3AtY29sb3I9IiM0NjRlYjAiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjUDl1alFKZ3o3WE45UWJueTlTNjRIZV9QZDJ4OUdXdTlvdlhfZ3I1KSIgZD0iTTM5LDM4LjYwNCBjLTQuMTQ2LDQuMDk1LTE0LjY1OSw1LjU4Ny0yNS4yMzEsMy4wNTdDMjQuMzQxLDQ2LjE2NCwzOC45NSw0My42MjgsMzksMzguNjA0eiI+PC9wYXRoPgo8L3N2Zz4=" />
+            <h5 class="text-center">JAVA</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiM4YmMzNGEiIGQ9Ik00My45ODIsMjMuNjM1YzAuMDY5LTQuMjYxLTAuODkxLTkuMzI4LTIuODkxLTE1LjI3M2wtMS41NjgtNC42NjJsLTIuMTMsNC40MzMgYy0wLjExNCwwLjIzNy0wLjI0NCwwLjQ2OS0wLjM4LDAuNjk4QzMzLjUxNCw1LjgyNywyOC45NzQsNCwyNCw0QzEyLjk1NCw0LDQsMTIuOTU0LDQsMjRjMCwxMS4wNDYsOC45NTQsMjAsMjAsMjBzMjAtOC45NTQsMjAtMjAgQzQ0LDIzLjg3Nyw0My45ODQsMjMuNzU4LDQzLjk4MiwyMy42MzV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTM5LjM4NSAzMi41NThjLTMuMTIzIDQuMzAyLTguNjUxIDQuNTMzLTEzLjg1NCA0LjQ0MkgxOC43NWgtMS45MzhjNC40MjgtMS41OTMgNy4wNjMtMS45NzIgOS43NTQtMy40IDUuMDY4LTIuNjY1IDEwLjA3OC04LjQ5NiAxMS4xMjEtMTQuNTYyLTEuOTMgNS44MzYtNy43NzkgMTAuODUtMTMuMTA5IDEyLjg4OS0zLjY1MiAxLjM5My0xMC4yNDggMi43NDUtMTAuMjQ4IDIuNzQ1bC0uMjY3LS4xNDVDOS41NzMgMzIuMjY4IDkuNDM3IDIyLjIxNCAxNy42IDE4Ljk2OGMzLjU3NC0xLjQyMyA2Ljk5My0uNjQxIDEwLjg1NC0xLjU5MyA0LjEyMi0xLjAxMiA4Ljg5LTQuMjA4IDEwLjgzLTguMzc1QzQxLjQ1NiAxNS42NjcgNDQuMDcgMjYuMTA2IDM5LjM4NSAzMi41NThMMzkuMzg1IDMyLjU1OHpNMTUuNjY4IDM4LjQ0NUMxNS4zODYgMzguNzk1IDE0Ljk1NSAzOSAxNC41MDUgMzljLS44MjMgMC0xLjQ5NS0uNjc3LTEuNDk1LTEuNXMuNjc3LTEuNSAxLjQ5NS0xLjVjLjM0MSAwIC42NzcuMTE4Ljk0MS4zMzZDMTYuMDg2IDM2Ljg1NSAxNi4xODYgMzcuODA1IDE1LjY2OCAzOC40NDVMMTUuNjY4IDM4LjQ0NXoiPjwvcGF0aD4KPC9zdmc+" />
+            <h5 class="text-center">Spring Boot</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg"
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiMwMDc5NmIiIGQ9Ik0wLjAwMiwzNS4wNDFoMS45MnYtNy4wODVsMi42NjcsNi4wNTdjMC4zMjksMC43NTUsMC43NzksMS4wMjIsMS42NjIsMS4wMjIgczEuMzE1LTAuMjY3LDEuNjQ0LTEuMDIybDIuNjY3LTUuOTAydjYuOTNoMS45MnYtNy4yNThjMC0wLjY5Ny0wLjI3Ny0xLjAzNS0wLjg0OS0xLjIwOWMtMS4zNjctMC40My0yLjI4NS0wLjA1OS0yLjcsMC44NzIgbC0yLjczNSw2LjE2bC0yLjY0OS02LjE2Yy0wLjM5OC0wLjkzLTEuMzMyLTEuMzAyLTIuNy0wLjg3MkMwLjI3NywyNi43NDgsMCwyNy4wODUsMCwyNy43ODJ2Ny4yNThIMC4wMDJ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzAwNzk2YiIgZD0iTTEzLjQ0MSwyOS4yODFoMS45MnY0LjA1NWMtMC4wMTUsMC4yLDAuMDY0LDAuNzMxLDAuOTksMC43NDVjMC40NzIsMC4wMDgsMi44MjEsMCwyLjg1LDB2LTQuOGgxLjkyIGMwLjAwOCwwLDAsNS45NjgsMCw1Ljk5M2MwLjAxLDEuNDcyLTEuODI4LDEuNjYyLTIuNjczLDEuNjg3aC01LjAwNnYtMC45NmMwLjAxLDAsNC43ODcsMC4wMDEsNC44MDEsMCBjMS4wODgtMC4xMTUsMC45NTktMC43MTQsMC45NTktMC44OTZ2LTAuMDY0SDE2LjE5Yy0xLjY3LTAuMDE1LTIuNzM1LTAuNzUxLTIuNzQ3LTEuNTlDMTMuNDQxLDMzLjM3MywxMy40NzksMjkuMzE3LDEzLjQ0MSwyOS4yODEgeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmNTdmMTciIGQ9Ik0yMi4wODEsMzUuMDQxaDQuODA3YzAuNjMsMCwxLjI0Mi0wLjEzMiwxLjcyOC0wLjM2YzAuODEtMC4zNzIsMS4xNDQtMC44NzUsMS4xNDQtMS41MzZ2LTEuMzY4IGMwLTEuNDc2LTEuODMtMS41MzYtMi44OC0xLjUzNmgtMS45MmMtMC43NTUsMC0wLjg3LTAuNDU2LTAuOTYtMC45NnYtMC45NmMwLjA5LTAuMzg0LDAuMjU4LTAuOSwwLjkyMy0wLjk2IGMwLjc3MywwLDQuODM2LDAsNC44MzYsMHYtMC45NmgtNC41NjZjLTAuNzU1LDAtMy4xMTQsMC4wOS0zLjExNCwxLjkydjEuMTg3YzAsMC44NCwwLjczOCwxLjUyNCwyLjM0LDEuNjkyIGMwLjE4LDAuMDEyLDAuMzYsMC4wMjQsMC41MzksMC4wMjRjMCwwLDEuODY2LTAuMDM2LDEuOTItMC4wMjRjMS4wOCwwLDAuOTYsMC44NCwwLjk2LDAuOTZ2MC45NmMwLDAuMTMyLTAuMDMsMC45Ni0wLjk3MSwwLjk2IGMtMC4wNzIsMC00Ljc4OSwwLTQuNzg5LDBWMzUuMDQxeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmNTdmMTciIGQ9Ik00MC4zMiwzMy4wOGMwLDEuMTU5LDAuNjU1LDEuODA5LDIuMzkyLDEuOTM5YzAuMTYyLDAuMDExLDAuMzI1LDAuMDIxLDAuNDg4LDAuMDIxSDQ4di0wLjk2aC00LjQzNSBjLTAuOTkxLDAtMS4zMjUtMC40MTYtMS4zMjUtMS4wMTF2LTYuNjY5aC0xLjkyVjMzLjA4eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmNTdmMTciIGQ9Ik0zMC43MDQsMzMuMTIxdi00LjhjMC0xLjAyLDAuNS0xLjcyNCwxLjkxNi0xLjkyaDAuNjcyaDMuNDQ3aDAuNTI1IGMxLjQxNiwwLjE5NiwyLjA4LDAuODk5LDIuMDgsMS45MnY0Ljc4MmMwLDAuODI3LTAuMjE1LDEuMjcxLTAuOTE2LDEuNTU5TDM5LjkxNiwzNmgtMi4xNmwtMS4wNy0wLjk2aC0xLjI1N2wtMi4xMzYsMC4wMTIgYy0wLjMwOSwwLTAuNjM1LTAuMDQzLTAuOTkzLTAuMTQxQzMxLjIyNiwzNC42MTgsMzAuNzA0LDM0LjA1NCwzMC43MDQsMzMuMTIxeiBNMzIuNjI0LDMzLjEyMWMwLjA5OCwwLjQ2NywwLjQ3MywwLjk2LDEuMTQsMC45NiBoMS44NjRsLTEuMDY4LTAuOTZoMi4xNzVsMC41MTksMC40ODJjMCwwLDAuMTg2LTAuMTUyLDAuMTg2LTAuNDgyYzAtMC4zMy0wLjAxNi00LjgtMC4wMTYtNC44Yy0wLjA5OC0wLjQzNC0wLjUzOC0wLjk2LTEuMTg4LTAuOTYgaC0yLjQ3MWMtMC43NDksMC0xLjE0LDAuNTQ4LTEuMTQsMS4wNThMMzIuNjI0LDMzLjEyMUwzMi42MjQsMzMuMTIxeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMDc5NmIiIGQ9Ik00Ni4xOTksMjUuMzg5Yy0xLjAzMS0wLjAyOC0xLjgxOCwwLjA2OC0yLjQ5MSwwLjM1MWMtMC4xOTEsMC4wODEtMC40OTYsMC4wODMtMC41MjgsMC4zMjMgYzAuMTA1LDAuMTEsMC4xMjEsMC4yNzUsMC4yMDUsMC40MWMwLjE2LDAuMjYsMC40MzIsMC42MDksMC42NzQsMC43OTFjMC4yNjUsMC4yLDAuNTM4LDAuNDE0LDAuODIxLDAuNTg3IGMwLjUwNCwwLjMwNywxLjA2NywwLjQ4MywxLjU1MywwLjc5MWMwLjI4NiwwLjE4MSwwLjU3LDAuNDExLDAuODUsMC42MTVjMC4xMzgsMC4xMDIsMC4yMywwLjI1OSwwLjQxLDAuMzIzIGMwLTAuMDEsMC0wLjAxOSwwLTAuMDI5Yy0wLjA5NC0wLjEyLTAuMTE5LTAuMjg1LTAuMjA1LTAuNDExYy0wLjEyNy0wLjEyNy0wLjI1NC0wLjI1NC0wLjM4MS0wLjM4MSBjLTAuMzcyLTAuNDk0LTAuODQ2LTAuOTI5LTEuMzQ4LTEuMjg5Yy0wLjQwMS0wLjI4OC0xLjI5OC0wLjY3Ny0xLjQ2Ni0xLjE0M2MtMC4wMS0wLjAxLTAuMDE5LTAuMDE5LTAuMDMtMC4wMyBjMC4yODQtMC4wMzIsMC42MTctMC4xMzUsMC44NzktMC4yMDVjMC40NDEtMC4xMTgsMC44MzQtMC4wODcsMS4yODktMC4yMDVjMC4yMDUtMC4wNTksMC40MS0wLjExNywwLjYxNS0wLjE3NiBjMC0wLjAzOSwwLTAuMDc4LDAtMC4xMTdjLTAuMjMtMC4yMzYtMC4zOTUtMC41NDgtMC42NDUtMC43NjJjLTAuNjU3LTAuNTU5LTEuMzczLTEuMTE3LTIuMTEtMS41ODMgYy0wLjQwOS0wLjI1OC0wLjkxNS0wLjQyNi0xLjM0OC0wLjY0NWMtMC4xNDYtMC4wNzQtMC40MDItMC4xMTItMC40OTgtMC4yMzRjLTAuMjI4LTAuMjktMC4zNTEtMC42NTktMC41MjctMC45OTYgYy0wLjM2OC0wLjcwOC0wLjczLTEuNDgyLTEuMDU1LTIuMjI3Yy0wLjIyMy0wLjUwOC0wLjM2OC0xLjAxLTAuNjQ1LTEuNDY2Yy0xLjMzMS0yLjE4OC0yLjc2NC0zLjUwOS00Ljk4Mi00LjgwNyBjLTAuNDcyLTAuMjc2LTEuMDQxLTAuMzg1LTEuNjQyLTAuNTI4Yy0wLjMyMy0wLjAxOS0wLjY0NS0wLjAzOS0wLjk2OC0wLjA1OWMtMC4xOTctMC4wODMtMC40MDEtMC4zMjMtMC41ODctMC40NCBjLTAuNzM1LTAuNDY1LTIuNjIxLTEuNDc1LTMuMTY1LTAuMTQ3Yy0wLjM0NCwwLjgzOCwwLjUxNCwxLjY1NiwwLjgyMSwyLjA4MWMwLjIxNSwwLjI5OCwwLjQ5MSwwLjYzMiwwLjY0NSwwLjk2OCBjMC4xMDEsMC4yMiwwLjExOSwwLjQ0MSwwLjIwNSwwLjY3NGMwLjIxMywwLjU3NCwwLjU1LDEuMjI4LDAuODI2LDEuNzU5YzAuMTM5LDAuMjY5LDAuMjkzLDAuNTUxLDAuNDY5LDAuNzkxIGMwLjEwOCwwLjE0NywwLjI5MywwLjIxMiwwLjMyMywwLjQ0Yy0wLjE4MSwwLjI1My0wLjE5MSwwLjY0Ni0wLjI5MywwLjk2OGMtMC40NTgsMS40NDUtMC4yODUsMy4yNCwwLjM4MSw0LjMwOCBjMC4yMDQsMC4zMjgsMC42ODYsMS4wMzIsMS4zNDgsMC43NjJjMC41NzktMC4yMzYsMC40NS0wLjk2NywwLjYxNS0xLjYxMmMwLjAzNy0wLjE0NiwwLjAxNC0wLjI1MywwLjA4OC0wLjM1MSBjMCwwLjAxLDAsMC4wMTksMCwwLjAzYzAuMTc2LDAuMzUxLDAuMzUxLDAuNzA0LDAuNTI4LDEuMDU1YzAuMzkxLDAuNjI5LDEuMDg0LDEuMjg2LDEuNjcsMS43MyBjMC4zMDQsMC4yMywwLjU0NCwwLjYyOCwwLjkzOCwwLjc2MmMwLTAuMDEsMC0wLjAxOSwwLTAuMDNjLTAuMDEsMC0wLjAxOSwwLTAuMDMsMGMtMC4wNzYtMC4xMTktMC4xOTYtMC4xNjgtMC4yOTMtMC4yNjQgYy0wLjIyOS0wLjIyNS0wLjQ4NS0wLjUwNC0wLjY3NC0wLjc2MmMtMC41MzQtMC43MjUtMS4wMDYtMS41MTktMS40MzYtMi4zNDVjLTAuMjA1LTAuMzk1LTAuMzg0LTAuODI5LTAuNTU3LTEuMjMxIGMtMC4wNjctMC4xNTUtMC4wNjYtMC4zODktMC4yMDUtMC40NjljLTAuMTksMC4yOTQtMC40NjgsMC41MzItMC42MTUsMC44NzljLTAuMjM0LDAuNTU1LTAuMjY1LDEuMjMzLTAuMzUxLDEuOTM0IGMtMC4wNTIsMC4wMTgtMC4wMjksMC4wMDYtMC4wNTksMC4wMjljLTAuNDA4LTAuMDk5LTAuNTUyLTAuNTE4LTAuNzA0LTAuODc5Yy0wLjM4NC0wLjkxMi0wLjQ1NS0yLjM4LTAuMTE3LTMuNDI5IGMwLjA4Ny0wLjI3MiwwLjQ4Mi0xLjEyNywwLjMyMy0xLjM3OGMtMC4wNzYtMC4yNTEtMC4zMjgtMC4zOTYtMC40NjgtMC41ODdjLTAuMTc1LTAuMjM2LTAuMzQ4LTAuNTQ4LTAuNDY5LTAuODIxIGMtMC4zMTQtMC43MTEtMC42MTItMS41MzgtMC45NDMtMi4yNTdjLTAuMTU4LTAuMzQ0LTAuNDI1LTAuNjkxLTAuNjQ1LTAuOTk2Yy0wLjI0My0wLjMzOC0wLjUxNi0wLjU4Ny0wLjcwNC0wLjk5NiBjLTAuMDY3LTAuMTQ1LTAuMTU4LTAuMzc4LTAuMDU5LTAuNTI4YzAuMDMyLTAuMTAxLDAuMDc2LTAuMTQzLDAuMTc2LTAuMTc2YzAuMTctMC4xMzIsMC42NDMsMC4wNDMsMC44MjEsMC4xMTcgYzAuNDcsMC4xOTUsMC44NjIsMC4zODEsMS4yNiwwLjY0NWMwLjE5MSwwLjEyNywwLjM4NCwwLjM3MiwwLjYxNSwwLjQ0YzAuMDg4LDAsMC4xNzYsMCwwLjI2NCwwIGMwLjQxMywwLjA5NSwwLjg3NSwwLjAzLDEuMjYsMC4xNDdjMC42ODIsMC4yMDcsMS4yOTIsMC41MjksMS44NDYsMC44NzljMS42OSwxLjA2NywzLjA3MSwyLjU4NSw0LjAxNiw0LjM5NyBjMC4xNTIsMC4yOTIsMC4yMTgsMC41NywwLjM1MSwwLjg3OWMwLjI3LDAuNjI0LDAuNjExLDEuMjY2LDAuODc5LDEuODc2YzAuMjY4LDAuNjA5LDAuNTMsMS4yMjMsMC45MDksMS43MyBjMC4yLDAuMjY2LDAuOTcsMC40MDksMS4zMTksMC41NTdjMC4yNDUsMC4xMDQsMC42NDcsMC4yMTEsMC44NzksMC4zNTFjMC40NDQsMC4yNjgsMC44NzQsMC41ODcsMS4yODksMC44NzkgQzQ1LjUyOCwyNC44MDMsNDYuMTY3LDI1LjEyNCw0Ni4xOTksMjUuMzg5eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMDc5NmIiIGQ9Ik0zMy4wOTgsMTQuMjIzYy0wLjIxNS0wLjAwNC0wLjM2NywwLjAyMy0wLjUyOCwwLjA1OWMwLDAuMDEsMCwwLjAxOSwwLDAuMDNjMC4wMSwwLDAuMDE5LDAsMC4wMywwIGMwLjEwMywwLjIxLDAuMjgzLDAuMzQ3LDAuNDEsMC41MjhjMC4wOTgsMC4yMDUsMC4xOTUsMC40MSwwLjI5MywwLjYxNWMwLjAxLTAuMDEsMC4wMTktMC4wMTksMC4wMjktMC4wMjkgYzAuMTgxLTAuMTI4LDAuMjY1LTAuMzMyLDAuMjY0LTAuNjQ1Yy0wLjA3My0wLjA3Ny0wLjA4NC0wLjE3My0wLjE0Ny0wLjI2NEMzMy4zNjUsMTQuMzk0LDMzLjIwMywxNC4zMjUsMzMuMDk4LDE0LjIyM3oiPjwvcGF0aD4KPC9zdmc+" />
+            <h5 class="text-center">MySQL</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg"
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNjY2VjNDMiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4xMiw1LjEyKSI+PHBhdGggZD0iTTI5Ljg2NzE5LDMuMDA3ODFjLTAuMTA1NDcsMC4wMTU2MyAtMC4yMTA5NCwwLjA0Njg4IC0wLjMxMjUsMC4wOTM3NWMtMC44NTkzNywwLjQyNTc4IC0xLjgzNTk0LDEuNjkxNDEgLTIuMDIzNDQsMS45NDE0MWMtMC4wMTE3MiwwLjAxNTYzIC0wLjAyMzQ0LDAuMDMxMjUgLTAuMDMxMjUsMC4wNDY4OGMtMC45NjQ4NCwxLjQ0NTMxIC0xLjQ4MDQ3LDMuMTM2NzIgLTEuNSw0Ljg5ODQ0Yy0wLjAxMTcyLDEuMzIwMzEgMC4yNDYwOSwyLjYyODkxIDAuNzY5NTMsMy44OTA2M2MxLjIxODc1LDIuOTI1NzggMy43NSw1LjM0NzY2IDYuNzYxNzIsNi40ODA0N2MwLjEwMTU2LDAuMDM1MTYgMC4xOTkyMiwwLjA3MDMxIDAuMzc1LDAuMTMyODFjMC4wMTU2MywwLjAwNzgxIDAuMTY0MDYsMC4wNTQ2OSAwLjE4NzUsMC4wNTg1OWwwLjEwOTM4LDAuMDM5MDZjMC4xNTYyNSwwLjA1MDc4IDAuMzE2NDEsMC4xMDE1NiAwLjQ3MjY2LDAuMTMyODFjMC43OTI5NywwLjE2MDE2IDEuNTY2NDEsMC4yNSAyLjI5Mjk3LDAuMjczNDRjMC4xMjUsMCAwLjI1LDAuMDAzOTEgMC4zNzUsMC4wMDM5MWM1LjQ4MDQ3LDAgNy42MDU0NywtMy44NjcxOSA4LjMxMjUsLTUuMTU2MjVjMC4wNzAzMSwtMC4xMjUgMC4xMjEwOSwtMC4yMjY1NiAwLjE2Nzk3LC0wLjI4OTA2YzAsLTAuMDAzOTEgMCwtMC4wMDM5MSAwLjAwMzkxLC0wLjAwNzgxYzAuMzA4NTksLTAuNDU3MDMgMC4xOTE0MSwtMS4wNzgxMiAtMC4yNjU2MiwtMS4zOTA2MmMtMC40NTMxMiwtMC4zMDg1OSAtMS4wNzQyMiwtMC4xOTE0MSAtMS4zODY3MiwwLjI2NTYzaC0wLjAwMzkxYy0xLjQ2MDk0LDIuMTUyMzQgLTMuOTYwOTQsMi44MDQ2OSAtNy40MjU3OCwxLjk0NTMxYy0wLjI1NzgxLC0wLjA2MjUgLTAuNTM5MDYsLTAuMTYwMTYgLTAuNzg5MDYsLTAuMjUzOTFjLTAuMzI4MTIsLTAuMTE3MTkgLTAuNjU2MjUsLTAuMjUzOTEgLTAuOTYwOTQsLTAuNDAyMzRjLTAuNjA1NDcsLTAuMzAwNzggLTEuMTc1NzgsLTAuNjYwMTYgLTEuNjkxNDEsLTEuMDU4NTljLTMuMDQ2ODcsLTIuMzYzMjggLTQuMjM4MjgsLTcuMjgxMjUgLTIuNDU3MDMsLTEwLjEyMTA5YzAuMjM4MjgsLTAuMzc4OTEgMC4xOTUzMSwtMC44NzEwOSAtMC4xMDU0NywtMS4yMDMxMmMtMC4yMjY1NiwtMC4yNSAtMC41NTQ2OSwtMC4zNjMyOCAtMC44NzUsLTAuMzIwMzF6TTIxLjAwNzgxLDVjLTAuMjI2NTYsLTAuMDAzOTEgLTAuNDU3MDMsMC4wNzAzMSAtMC42NDQ1MywwLjIyNjU2Yy0xLjUxMTcyLDEuMjMwNDcgLTMuMDU4NTksMy4yNDYwOSAtMy4xMjUsMy4zMjgxM2MtMC4wMDc4MSwwLjAxNTYzIC0wLjAxNTYyLDAuMDI3MzQgLTAuMDI3MzQsMC4wNDI5N2MtMi43MzQzNywzLjk4MDQ3IC0yLjk0MTQxLDkuNjQ0NTMgLTAuNTIzNDQsMTQuNDI5NjljMC4zNzg5MSwwLjc1NzgxIDAuODA4NTksMS40ODA0NyAxLjI2NTYzLDIuMTQ0NTNsMC4xMzY3MiwwLjE5NTMxYzAuMzg2NzIsMC41NjY0MSAwLjgyMDMxLDEuMjA3MDMgMS4zNzUsMS43MDcwM2MwLjE5MTQxLDAuMjE4NzUgMC4zOTg0NCwwLjQyOTY5IDAuNjAxNTYsMC42MzI4MWwwLjA5NzY2LDAuMTAxNTZsMC4wODIwMywwLjA4MjAzYzAuMjA3MDMsMC4xOTkyMiAwLjQxNzk3LDAuNDAyMzQgMC42MzY3MiwwLjU5NzY2aDAuMDAzOTFjMC4wMTU2MywwLjAyMzQ0IDAuMDM5MDYsMC4wMzkwNiAwLjA1ODU5LDAuMDU4NTljMC4yNDYwOSwwLjIxODc1IDAuNDk2MDksMC40MjU3OCAwLjgyODEzLDAuNjg3NWwwLjA4OTg0LDAuMDY2NDFjMC4yNTc4MSwwLjIwNzAzIDAuNTE5NTMsMC40MDIzNCAwLjc4OTA2LDAuNTkzNzVjMC4wMjczNCwwLjAxOTUzIDAuMDU0NjksMC4wMzkwNiAwLjA4MjAzLDAuMDU4NTljMC4wOTM3NSwwLjA2MjUgMC4xODc1LDAuMTIxMDkgMC4yODEyNSwwLjE4NzVsMC4wOTM3NSwwLjA2MjVsMC4xMDkzOCwwLjA3MDMxYzAuMTk5MjIsMC4xMzI4MSAwLjM5NDUzLDAuMjUzOTEgMC42NzE4OCwwLjQxNDA2YzAuMTc5NjksMC4xMDkzOCAwLjM3MTA5LDAuMjE4NzUgMC40OTYwOSwwLjI4MTI1YzAuMDU0NjksMC4wMzEyNSAwLjExMzI4LDAuMDYyNSAwLjI1LDAuMTM2NzJsMC4zMDQ2OSwwLjE2MDE2YzAuMDE1NjMsMC4wMDc4MSAwLjA4NTk0LDAuMDM5MDYgMC4xMDE1NiwwLjA0Njg4YzAuMTk5MjIsMC4xMDE1NiAwLjQwNjI1LDAuMTk5MjIgMC42MTMyOCwwLjI5Mjk3bDAuMzE2NDEsMC4xNDA2M2MwLjIwNzAzLDAuMDg5ODQgMC40MTc5NywwLjE3NTc4IDAuNjc1NzgsMC4yNzM0NGwwLjExNzE5LDAuMDQyOTdjMC4wMDc4MSwwLjAwNzgxIDAuMTA1NDcsMC4wNDI5NyAwLjExMzI4LDAuMDQ2ODhjMC4xODc1LDAuMDY2NDEgMC4zNzg5MSwwLjEzMjgxIDAuNTcwMzEsMC4xOTUzMWwwLjQzNzUsMC4xNDQ1M2MwLjIxODc1LDAuMDc0MjIgMC40NzI2NiwwLjE2MDE2IDAuNzUsMC4yMDcwM2MxLjM2MzI4LDAuMjI2NTYgMi42ODc1LDAuMzQzNzUgMy45NDE0MSwwLjM0Mzc1YzAuMTQ4NDQsMCAwLjI5Njg4LC0wLjAwMzkxIDAuNDQxNDEsLTAuMDAzOTFjMTEuMDM5MDYsLTAuMjQyMTkgMTMuOTEwMTYsLTkuNjIxMDkgMTMuOTM3NSwtOS43MTQ4NGMwLjEzNjcyLC0wLjQ3MjY2IC0wLjA4NTk0LC0wLjk3NjU2IC0wLjUzMTI1LC0xLjE4NzVjLTAuNDQ1MzEsLTAuMjEwOTQgLTAuOTc2NTYsLTAuMDYyNSAtMS4yNTM5MSwwLjM0Mzc1Yy0yLjc5Njg3LDQuMDg1OTQgLTguMDg1OTQsNS44MTI1IC0xMy40NzI2Niw0LjM5MDYzYy0wLjI1LC0wLjA2MjUgLTAuNDkyMTksLTAuMTMyODEgLTAuNzkyOTcsLTAuMjMwNDdjLTAuMDUwNzgsLTAuMDE1NjIgLTAuMDkzNzUsLTAuMDMxMjUgLTAuMTc1NzgsLTAuMDYyNWMtMC4xNzU3OCwtMC4wNTQ2OSAtMC4zNDc2NiwtMC4xMTMyOCAtMC41NDI5NywtMC4xODc1bC0wLjI3NzM0LC0wLjEwNTQ3Yy0wLjE2MDE2LC0wLjA2MjUgLTAuMzIwMzEsLTAuMTI1IC0wLjUxNTYyLC0wLjIxMDk0bC0wLjEyODkxLC0wLjA1ODU5Yy0wLjIzODI4LC0wLjEwMTU2IC0wLjQ2ODc1LC0wLjIxNDg0IC0wLjY3NTc4LC0wLjMxNjQxbC0wLjU3MDMxLC0wLjI5Njg3Yy0wLjEyODkxLC0wLjA2MjUgLTAuMjQyMTksLTAuMTMyODEgLTAuNDE3OTcsLTAuMjM4MjhsLTAuMDk3NjYsLTAuMDU0NjlsLTAuMDk3NjYsLTAuMDU4NTljLTAuMTQ0NTMsLTAuMDg1OTQgLTAuMjg5MDYsLTAuMTc1NzggLTAuNDIxODcsLTAuMjY5NTNsLTAuMDkzNzUsLTAuMDU4NTljLTAuMDA3ODEsLTAuMDAzOTEgLTAuMDg1OTQsLTAuMDU4NTkgLTAuMDkzNzUsLTAuMDY2NDFjLTAuMTE3MTksLTAuMDc0MjIgLTAuMjMwNDcsLTAuMTQ4NDQgLTAuMzM5ODQsLTAuMjE4NzVjLTAuMjQyMTksLTAuMTcxODcgLTAuNDgwNDcsLTAuMzUxNTYgLTAuNzU3ODEsLTAuNTcwMzFsLTAuMTA5MzcsLTAuMDg5ODRjLTIuNTc4MTIsLTIuMDU4NTkgLTQuNDg0MzcsLTQuODA4NTkgLTUuMzc4OTEsLTcuNzU3ODFjLTAuODMyMDMsLTIuNzA3MDMgLTAuMjE0ODQsLTYuMjUgMS42NTIzNCwtOS40NzY1NmMwLjI0MjE5LC0wLjQxNzk3IDAuMTUyMzQsLTAuOTQ5MjIgLTAuMjE4NzUsLTEuMjYxNzJjLTAuMTgzNTksLTAuMTU2MjUgLTAuNDEwMTYsLTAuMjM4MjggLTAuNjM2NzIsLTAuMjM4Mjh6TTEwLjAwMzkxLDhjLTAuMjM4MjgsMCAtMC40ODA0NywwLjA4NTk0IC0wLjY3MTg3LDAuMjU3ODFjLTEuOTEwMTYsMS43MTQ4NCAtMy4zMzk4NCwzLjkzNzUgLTMuNDk2MDksNC4xOTE0MWMtNC4wODU5NCw1Ljk0OTIyIC0zLjI5Njg3LDE1LjE5NTMxIC0wLjQ5MjE5LDIwLjg0NzY2YzAuMDU0NjksMC4xMTcxOSAwLjExMzI4LDAuMjMwNDcgMC4xNzE4OCwwLjM0Mzc1bDAuMDM5MDYsMC4wNjI1YzAuMDUwNzgsMC4xMTMyOCAwLjEwOTM4LDAuMjMwNDcgMC4xMjg5MSwwLjI1MzkxYzAuMDMxMjUsMC4wNzQyMiAwLjA3ODEzLDAuMTU2MjUgMC4wOTc2NiwwLjE3OTY5YzAuMDQ2ODgsMC4wOTc2NiAwLjA5Mzc1LDAuMTgzNTkgMC4xNzk2OSwwLjMzMjAzbDAuMzIwMzEsMC41NTA3OGMwLjA0Njg4LDAuMDc0MjIgMC4wOTM3NSwwLjE1MjM0IDAuMTA5MzgsMC4xNzk2OWMwLjA2MjUsMC4xMDE1NiAwLjEyODkxLDAuMjA3MDMgMC4xOTUzMSwwLjMxMjVsMC4xNTYyNSwwLjI1YzAuMDQ2ODgsMC4wNzQyMiAwLjA5Mzc1LDAuMTQwNjMgMC4xMjUsMC4xNzk2OWMwLjE1NjI1LDAuMjQyMTkgMC4zMTI1LDAuNDg0MzggMC40ODQzOCwwLjcxNDg0YzAuMDA3ODEsMC4wMTE3MiAwLjAxNTYzLDAuMDE5NTMgMC4wMjM0NCwwLjAyNzM0bDAuMDYyNSwwLjA4NTk0YzAuMTQwNjMsMC4yMDMxMyAwLjI4NTE2LDAuMzk4NDQgMC40MTQwNiwwLjU1ODU5bDAuNTcwMzEsMC43MjI2NmMwLjAwNzgxLDAuMDA3ODEgMC4wNzAzMSwwLjA4MjAzIDAuMDc0MjIsMC4wODk4NGwwLjA4MjAzLDAuMDkzNzVjMC4xNzE4OCwwLjIxMDk0IDAuMzU1NDcsMC40MjE4OCAwLjUzOTA2LDAuNjI1YzAuMDI3MzQsMC4wMzEyNSAwLjA1NDY5LDAuMDU4NTkgMC4wODIwMywwLjA4OTg0YzAuMTc1NzgsMC4xOTE0MSAwLjM1NTQ3LDAuMzgyODEgMC41NDI5NywwLjU4MjAzbDAuMTc5NjksMC4xNzE4OGMwLjE0ODQ0LDAuMTU2MjUgMC4yOTY4OCwwLjMwODU5IDAuNDUzMTMsMC40NTMxM2MwLDAuMDAzOTEgMC4wNzQyMiwwLjA3NDIyIDAuMDc0MjIsMC4wNzQyMmwwLjE1NjI1LDAuMTQ0NTNjMC4xODc1LDAuMTc5NjkgMC4zODI4MSwwLjM1OTM4IDAuNTMxMjUsMC40ODQzOGMwLjAwNzgxLDAuMDExNzIgMC4xNDg0NCwwLjEzMjgxIDAuMTYwMTYsMC4xNDA2M2MwLjE4MzU5LDAuMTY0MDYgMC4zNjcxOSwwLjMyMDMxIDAuNTU0NjksMC40NzI2NmwwLjk1NzAzLDAuNzU3ODFjMC4xNjAxNiwwLjExNzE5IDAuMzI0MjIsMC4yMzQzOCAwLjUxMTcyLDAuMzcxMDljMC4wNjI1LDAuMDQ2ODggMC4xMjg5MSwwLjA5Mzc1IDAuMTk1MzEsMC4xMzY3MmMwLjAyNzM0LDAuMDIzNDQgMC4wNTg1OSwwLjA0Njg4IDAuMDc4MTMsMC4wNTg1OWwwLjcxODc1LDAuNDgwNDdjMC4yNjE3MiwwLjE3MTg4IDAuNTIzNDQsMC4zMzIwMyAwLjg0Mzc1LDAuNTIzNDRsMC4xNzE4OCwwLjA5NzY2YzAuMTk5MjIsMC4xMTcxOSAwLjQwMjM0LDAuMjM0MzggMC41OTM3NSwwLjMzNTk0YzAuMTEzMjgsMC4wNjI1IDAuMjI2NTYsMC4xMTcxOSAwLjMyNDIyLDAuMTY3OTdjMC4xMzY3MiwwLjA3NDIyIDAuMjg1MTYsMC4xNTYyNSAwLjUxMTcyLDAuMjY1NjNjMC4wMTk1MywwLjAxMTcyIDAuMTc5NjksMC4wODk4NCAwLjE5OTIyLDAuMDk3NjZjMC4yMjY1NiwwLjExMzI4IDAuNDU3MDMsMC4yMTg3NSAwLjc0NjA5LDAuMzQ3NjZjMCwwLjAwMzkxIDAuMDkzNzUsMC4wNDY4OCAwLjA5Mzc1LDAuMDQ2ODhjMC4yNjU2MywwLjExMzI4IDAuNTIzNDQsMC4yMjI2NiAwLjg2MzI4LDAuMzU5MzhjMC4wNTQ2OSwwLjAyMzQ0IDAuMTA5MzgsMC4wNDI5NyAwLjEyMTA5LDAuMDQ2ODhjMC4yNDIxOSwwLjA5Mzc1IDAuNDk2MDksMC4xODc1IDAuNzAzMTMsMC4yNjE3MmMwLjAxOTUzLDAuMDA3ODEgMC4xMjUsMC4wNTA3OCAwLjE0NDUzLDAuMDU4NTljMC4yNzczNCwwLjA5Mzc1IDAuNTUwNzgsMC4xODM1OSAwLjkwMjM0LDAuMjkyOTdjMC4wNTg1OSwwLjAxOTUzIDAuMTIxMDksMC4wMzkwNiAwLjEyODkxLDAuMDM5MDZsMC4xOTkyMiwwLjA2MjVjMC4yNDIxOSwwLjA3NDIyIDAuNDg0MzgsMC4xNTIzNCAwLjc0NjA5LDAuMjAzMTNjMS44NTkzOCwwLjMzOTg0IDMuNjc1NzgsMC41MTU2MyA1LjM5NDUzLDAuNTE1NjNoMC4wMDM5MWMxNC4zMjQyMiwwIDE4Ljg4NjcyLC0xMS41MjczNCAxOC45MzM1OSwtMTEuNjQ0NTNjMC4xNzU3OCwtMC40NjQ4NCAtMC4wMTU2MiwtMC45ODgyOCAtMC40NTMxMiwtMS4yMzA0N2MtMC40Mjk2OSwtMC4yMzgyOCAtMC45NzY1NiwtMC4xMjUgLTEuMjgxMjUsMC4yNjk1M2MtMy42NzU3OCw0LjgzOTg0IC0xMC42MDkzNyw2LjYzNjcyIC0xOC41NDY4Nyw0LjgxMjVjLTAuMTkxNDEsLTAuMDQ2ODcgLTAuMzg2NzIsLTAuMTAxNTYgLTAuNTc4MTIsLTAuMTYwMTZsLTAuMzc1LC0wLjExMzI4Yy0wLjI1MzkxLC0wLjA3ODEyIC0wLjUwNzgxLC0wLjE2NDA2IC0wLjc1MzkxLC0wLjI1Yy0wLjAwMzkxLDAgLTAuMTE3MTksLTAuMDQyOTcgLTAuMTE3MTksLTAuMDQyOTdjLTAuMjE4NzUsLTAuMDc0MjIgLTAuNDM3NSwtMC4xNjAxNiAtMC42Mjg5MSwtMC4yMzQzN2wtMC4yMTg3NSwtMC4wODU5NGMtMC4yNDIxOSwtMC4wOTc2NiAtMC40ODQzNywtMC4xOTkyMiAtMC43MTg3NSwtMC4zMDQ2OWwtMC4xMzY3MiwtMC4wNTg1OWMtMC4yMTA5NCwtMC4wOTc2NiAtMC40MTQwNiwtMC4xOTE0MSAtMC42MTcxOSwtMC4yOTI5N2MtMC4wMTU2MiwtMC4wMDc4MSAtMC4xNzU3OCwtMC4wODU5NCAtMC4xOTE0MSwtMC4wODk4NGMtMC4xNDA2MiwtMC4wNzAzMSAtMC4yODEyNSwtMC4xNDQ1MyAtMC40NjA5NCwtMC4yNDIxOWwtMC44MTY0MSwtMC40Mzc1Yy0wLjA4MjAzLC0wLjA1NDY5IC0wLjE2Nzk3LC0wLjEwNTQ3IC0wLjI1LC0wLjE0ODQ0Yy0wLjI0NjA5LC0wLjE1MjM0IC0wLjUsLTAuMzA0NjkgLTAuNzUsLTAuNDY0ODRjLTAuMDU4NTksLTAuMDM1MTYgLTAuMTA5MzcsLTAuMDc0MjIgLTAuMjA3MDMsLTAuMTQwNjJjLTAuMTcxODcsLTAuMTA5MzcgLTAuMzM5ODQsLTAuMjIyNjYgLTAuNTg1OTQsLTAuMzk0NTNsLTAuMDk3NjYsLTAuMDcwMzFjLTAuMTY3OTcsLTAuMTE3MTkgLTAuMzMyMDMsLTAuMjQyMTkgLTAuNDY4NzUsLTAuMzQzNzVjLTAuMDg1OTQsLTAuMDYyNSAtMC4xNzE4NywtMC4xMzI4MSAtMC4zMTI1LC0wLjIzODI4Yy0wLjEyNSwtMC4wOTc2NiAtMC4yNSwtMC4xOTE0MSAtMC4zNjcxOSwtMC4yODUxNmwtMC4yMTg3NSwtMC4xNzk2OWMtMC4xODM1OSwtMC4xNDg0NCAtMC4zNTU0NywtMC4zMDQ2OSAtMC41MzUxNiwtMC40NTcwM2MtMC4wMjM0NCwtMC4wMjM0NCAtMC4wNDI5NywtMC4wMzkwNiAtMC4wNzAzMSwtMC4wNTg1OWMtMC4xOTkyMiwtMC4xODM1OSAtMC40MDIzNCwtMC4zNjcxOSAtMC42NDQ1MywtMC41OTc2NmwtMC43MDcwMywtMC43MDMxMmMtMC4xNzE4NywtMC4xNzU3OCAtMC4zNDM3NSwtMC4zNTU0NyAtMC41MzkwNiwtMC41NzAzMWMtMC4xNzk2OSwtMC4xOTkyMiAtMC4zNTE1NiwtMC4zOTg0NCAtMC41ODIwMywtMC42NzE4N2wtMC40MjE4NywtMC41MTU2MmMtMC4wNTA3OCwtMC4wNzQyMiAtMC4xMDU0NywtMC4xNDg0NCAtMC4xNzE4NywtMC4yMjY1NmMtMC4xNDQ1MywtMC4xOTUzMSAtMC4yODkwNiwtMC4zODY3MiAtMC40MzM1OSwtMC41ODk4NGMtMy44OTA2MiwtNS4zNTkzNyAtNC45MDYyNSwtMTYuNTQ2ODcgLTEuODc1LC0yMC42NDQ1M2MwLjMwNDY5LC0wLjQxMDE2IDAuMjUsLTAuOTg4MjggLTAuMTMyODEsLTEuMzM1OTRjLTAuMTg3NSwtMC4xNzE4NyAtMC40Mjk2OSwtMC4yNTc4MSAtMC42Njc5NywtMC4yNTc4MXoiPjwvcGF0aD48L2c+PC9nPgo8L3N2Zz4=" />
+
+            <h5 class="text-center">jQuery</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik00MSwyNGMwLDkuNC03LjYsMTctMTcsMTdTNywzMy40LDcsMjRTMTQuNiw3LDI0LDdTNDEsMTQuNiw0MSwyNHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjNDU1YTY0IiBkPSJNMjEgNDF2LTUuNWMwLS4zLjItLjUuNS0uNXMuNS4yLjUuNVY0MWgydi02LjVjMC0uMy4yLS41LjUtLjVzLjUuMi41LjVWNDFoMnYtNS41YzAtLjMuMi0uNS41LS41cy41LjIuNS41VjQxaDEuOGMuMi0uMy4yLS42LjItMS4xVjM2YzAtMi4yLTEuOS01LjItNC4zLTUuMmgtMi41Yy0yLjMgMC00LjMgMy4xLTQuMyA1LjJ2My45YzAgLjQuMS44LjIgMS4xTDIxIDQxIDIxIDQxek00MC4xIDI2LjRDNDAuMSAyNi40IDQwLjEgMjYuNCA0MC4xIDI2LjRjMCAwLTEuMy0uNC0yLjQtLjQgMCAwLS4xIDAtLjEgMC0xLjEgMC0yLjkuMy0yLjkuMy0uMSAwLS4xIDAtLjEtLjEgMC0uMSAwLS4xLjEtLjEuMSAwIDItLjMgMy4xLS4zIDEuMSAwIDIuNC40IDIuNS40LjEgMCAuMS4xLjEuMkM0MC4yIDI2LjMgNDAuMiAyNi40IDQwLjEgMjYuNHpNMzkuOCAyNy4yQzM5LjggMjcuMiAzOS44IDI3LjIgMzkuOCAyNy4yYzAgMC0xLjQtLjQtMi42LS40LS45IDAtMyAuMi0zLjEuMi0uMSAwLS4xIDAtLjEtLjEgMC0uMSAwLS4xLjEtLjEuMSAwIDIuMi0uMiAzLjEtLjIgMS4zIDAgMi42LjQgMi42LjQuMSAwIC4xLjEuMS4yQzM5LjkgMjcuMSAzOS45IDI3LjIgMzkuOCAyNy4yek03LjggMjYuNGMtLjEgMC0uMSAwLS4xLS4xIDAtLjEgMC0uMS4xLS4yLjgtLjIgMi40LS41IDMuMy0uNS44IDAgMy41LjIgMy42LjIuMSAwIC4xLjEuMS4xIDAgLjEtLjEuMS0uMS4xIDAgMC0yLjctLjItMy41LS4yQzEwLjEgMjYgOC42IDI2LjIgNy44IDI2LjQgNy44IDI2LjQgNy44IDI2LjQgNy44IDI2LjR6TTguMiAyNy45YzAgMC0uMSAwLS4xLS4xIDAtLjEgMC0uMSAwLS4yLjEgMCAxLjQtLjggMi45LTEgMS4zLS4yIDQgLjEgNC4yLjEuMSAwIC4xLjEuMS4xIDAgLjEtLjEuMS0uMS4xIDAgMCAwIDAgMCAwIDAgMC0yLjgtLjMtNC4xLS4xQzkuNiAyNy4xIDguMiAyNy45IDguMiAyNy45IDguMiAyNy45IDguMiAyNy45IDguMiAyNy45eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0NTVhNjQiIGQ9Ik0xNC4yLDIzLjVjMC00LjQsNC42LTguNSwxMC4zLTguNWM1LjcsMCwxMC4zLDQsMTAuMyw4LjVTMzEuNSwzMSwyNC41LDMxUzE0LjIsMjcuOSwxNC4yLDIzLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzQ1NWE2NCIgZD0iTTI4LjYgMTYuM2MwIDAgMS43LTIuMyA0LjgtMi4zIDEuMiAxLjIuNCA0LjggMCA1LjhMMjguNiAxNi4zek0yMC40IDE2LjNjMCAwLTEuNy0yLjMtNC44LTIuMy0xLjIgMS4yLS40IDQuOCAwIDUuOEwyMC40IDE2LjN6TTIwLjEgMzUuOWMwIDAtMi4zIDAtMi44IDAtMS4yIDAtMi4zLS41LTIuOC0xLjUtLjYtMS4xLTEuMS0yLjMtMi42LTMuMy0uMy0uMi0uMS0uNC40LS40LjUuMSAxLjQuMiAyLjEgMS4xLjcuOSAxLjUgMiAyLjggMiAxLjMgMCAyLjcgMCAzLjUtLjlMMjAuMSAzNS45eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMGJjZDQiIGQ9Ik0yNCw0QzEzLDQsNCwxMyw0LDI0czksMjAsMjAsMjBzMjAtOSwyMC0yMFMzNSw0LDI0LDR6IE0yNCw0MGMtOC44LDAtMTYtNy4yLTE2LTE2UzE1LjIsOCwyNCw4IHMxNiw3LjIsMTYsMTZTMzIuOCw0MCwyNCw0MHoiPjwvcGF0aD4KPC9zdmc+" />
+
+            <h5 class="text-center">Git Hub</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img alt="svgImg"
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNmZmNhMjgiIGQ9Ik0wLjUsMzguNUMwLjUsMzguNSw5LDIxLDI3LDE4YzcsOSwxNiwxOSwxNiwxOXM0LjUtMC41LDQuNSwyLjVjLTMsMC01LDAtNSwwIGMtMjctMTQtMzcuMTA0LTkuMTc4LTM3LTFIMC41eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyMTIxMjEiIGQ9Ik00OCw0MGgtNS42MjJsLTAuMTA4LTAuMDU2QzIwLjkzMywyOC44OCwxMi4zMDMsMzAuNTg3LDkuMDU4LDMyLjU4OCBDNy4wMjQsMzMuODQyLDUuOTY3LDM1Ljg4NCw2LDM4LjQ5M0w2LjAwNiwzOWgtNi4zMDVsMC4zNDktMC43MTljMC4wODYtMC4xNzcsOC44MjEtMTcuNzY3LDI2Ljg2OC0yMC43NzRsMC4yOTQtMC4wNDlsMC4xODMsMC4yMzUgYzYuMzkzLDguMjE5LDE0LjU1OSwxNy4zODcsMTUuODEzLDE4Ljc4OWMwLjcyNy0wLjA0NSwyLjc1Ny0wLjA1NiwzLjkyOSwwLjk5NEM0Ny43MDksMzcuOTg5LDQ4LDM4LjY3LDQ4LDM5LjVWNDB6IE00Mi42MjIsMzkgaDQuMzJjLTAuMDc4LTAuMzA4LTAuMjM0LTAuNTY0LTAuNDcyLTAuNzc3Yy0xLjA3OS0wLjk2Ny0zLjM5Mi0wLjcyOC0zLjQxNi0wLjcyNkw0Mi44LDM3LjUyNGwtMC4xNzItMC4xODkgYy0wLjA4OS0wLjEtOC45MzQtOS45NC0xNS44MzktMTguNzkyQzExLjUxNiwyMS4yNDEsMy4xNTksMzQuNzIxLDEuMzMzLDM4aDMuNjczYzAuMS0yLjczOSwxLjMxMy00Ljg5OCwzLjUyNy02LjI2NCBDMTQuNDMzLDI4LjA5OSwyNi41MzgsMzAuNjc3LDQyLjYyMiwzOXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMjEyMTIxIiBkPSJNMjIsMzdoLTQuNjY0bC0wLjEzMi0wLjA5N0MxNi41NzgsMzYuNDQ0LDEuOTEyLDI1LjU1OSw2LjA1MywxNy4yNzYgYzEuODQ1LTMuNjkxLDUuMzUtMy40NjQsNy40NDgtMy4zMjNDMTMuODY5LDEzLjk3OCwxNC4yMDcsMTQsMTQuNSwxNHYxYy0wLjMxMywwLTAuNjcyLTAuMDIzLTEuMDY1LTAuMDQ5IGMtMi4wODItMC4xMzctNC45MzktMC4zMjUtNi40ODgsMi43NzJDMy4zNzMsMjQuODcyLDE2LjIyNywzNC45MDcsMTcuNjY3LDM2aDMuMjYyYy0wLjA3OS0wLjI0Ny0wLjIyNS0wLjQ0MS0wLjQ0LTAuNTkgYy0wLjU3LTAuMzkyLTEuNTM3LTAuMzg1LTIuMTQzLTAuMTUxbC0wLjM2MywwLjE0bC0wLjIyNS0wLjMxN2MtMi45NTgtNC4xNzYtMC44MTQtOS41NDQtMC43MjEtOS43NzFsMC45MjYsMC4zNzkgYy0wLjAyLDAuMDQ5LTEuOTIsNC44MjgsMC40MTIsOC41MTZjMC44MzQtMC4yMDEsMS45MjItMC4xNDEsMi42OCwwLjM4MUMyMS40ODYsMzQuODgyLDIyLDM1LjQ1NCwyMiwzNi41VjM3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmUwODIiIGQ9Ik00My41LDYuNWMtMi4yMDgsMS41ODMtNCwzLTQsNWMtMS42MjUtMC42MjUtMi44NDQtMC44NDQtNC45MDYtMC44NTkgYy0yLjI1LTAuMDE3LTMuNDY5LDAuMjM0LTUuMDk0LDAuODU5YzAtMi0xLjYyNS0zLjM3NS00LTVjLTMsMTgsOSwyMyw5LDIzUzQ2LjUsMjQuNSw0My41LDYuNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMjEyMTIxIiBkPSJNMzQuNSwzMC4wNDJsLTAuMTkyLTAuMDhjLTAuMTI0LTAuMDUyLTEyLjMzMS01LjM2My05LjMwMS0yMy41NDRsMC4xMjktMC43NzNsMC42NDYsMC40NDIgYzEuOTk1LDEuMzY1LDMuODA4LDIuNzYxLDQuMTU3LDQuNzIxYzEuNDk2LTAuNTE0LDIuNzAxLTAuNjk3LDQuNjU4LTAuNjY3YzEuODQzLDAuMDE0LDMuMDU1LDAuMTg4LDQuNDY0LDAuNjY4IGMwLjMzOC0xLjg0NCwyLjAyLTMuMTg5LDQuMTQ3LTQuNzE1bDAuNjUyLTAuNDY4bDAuMTMyLDAuNzkyYzMuMDMsMTguMTgxLTkuMTc3LDIzLjQ5Mi05LjMwMSwyMy41NDRMMzQuNSwzMC4wNDJ6IE0yNS44Nyw3LjM2OCBjLTIuMjg4LDE1LjcyLDcuMDk5LDIwLjg1Niw4LjYzLDIxLjU4M2MxLjUzMS0wLjcyNywxMC45MTEtNS44NTgsOC42MzItMjEuNTY1QzQxLjMxNSw4LjcyOCw0MCw5Ljk0NSw0MCwxMS41djAuNzI4bC0wLjY4LTAuMjYxIGMtMS41ODYtMC42MS0yLjczNi0wLjgxMi00LjczLTAuODI2Yy0yLjI2NC0wLjAzMi0zLjQ1MSwwLjI2Ni00LjkxLDAuODI2TDI5LDEyLjIyOFYxMS41QzI5LDkuOTc1LDI3LjkwNSw4LjgyMiwyNS44Nyw3LjM2OHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMjEyMTIxIiBkPSJNMjEsMTZjLTQsMi03LjY4OCwxLjUyMS02Ljk1OC0xLjM3NUMxNC43NSwxMS43NSwxOSwxNCwyMSwxNnoiPjwvcGF0aD48cG9seWdvbiBmaWxsPSIjMjEyMTIxIiBwb2ludHM9IjE1LDI2IDE0LDIzIDEyLjY4OCwyNC40MDYiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjMjEyMTIxIiBwb2ludHM9IjE1LjM3NSwyMi4zNzUgMTksMjQgMTcuNSwyMS4zNDQiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjMjEyMTIxIiBwb2ludHM9IjE4LDIxIDIzLDI0IDIxLjM0NCwxOS41MzEiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjMjEyMTIxIiBwb2ludHM9IjM2LjcxOSwyOS44NzUgMzUsMzIgMzgsMzEiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjMjEyMTIxIiBwb2ludHM9IjM4LDMyIDM2LDM0IDM5LDMzIj48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzIxMjEyMSIgcG9pbnRzPSIyNS4zNzUsMTUuODQ0IDI4LDE3IDI1LjYyNSwxNy4zNzUiPjwvcG9seWdvbj48cG9seWdvbiBmaWxsPSIjMjEyMTIxIiBwb2ludHM9IjI1LjkzOCwxOC41OTQgMjcuOTA2LDE5LjA5NCAyNi4xODgsMTkuNjg4Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzIxMjEyMSIgcG9pbnRzPSI0NCwxNS44NDQgNDEsMTcgNDMuNzUsMTcuMzc1Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzIxMjEyMSIgcG9pbnRzPSI0My40MzgsMTguNTk0IDQxLDE5IDQzLjE4OCwxOS42ODgiPjwvcG9seWdvbj48cGF0aCBmaWxsPSIjMjEyMTIxIiBkPSJNMjguMzc1LDEyLjVjMCwwLTIuMTU2LTAuNzUtMi42ODgtNS43NWMwLjkzOCwwLjcxOSw0LjIwMywzLjQ1Myw0LjE3Miw1LjE0MSBDMjguNzM0LDEyLjMyOCwyOC4zNzUsMTIuNSwyOC4zNzUsMTIuNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMjEyMTIxIiBkPSJNNDAuNjM3LDEyLjVjMCwwLDIuMTU2LTAuNzUsMi42ODgtNS43NWMtMC45MzgsMC43MTktNC4yMDMsMy40NTMtNC4xNzIsNS4xNDEgQzQwLjI3NywxMi4zMjgsNDAuNjM3LDEyLjUsNDAuNjM3LDEyLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzIxMjEyMSIgZD0iTTExLjQzOCwzMC45NjljMCwwLDIuOTM4LTAuODQ0LDUuMjUtMC4zNzVjMC4yNSwxLjU2MywwLjM3NSwzLjI1LDEuNzE5LDQuMjgxIGMxLjA2My0wLjIxOSwyLjg3NS0wLjUsMy4yMTksMS41OTRjLTEuMzEzLTAuMDMxLTMuOTA2LDAuMDYzLTMuOTA2LDAuMDYzUzEzLDMzLjM0NCwxMS40MzgsMzAuOTY5eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyMTIxMjEiIGQ9Ik0zMS44MTMsMjAuODU0bC0wLjQzOS0wLjIzOGMwLjkxMS0xLjY3NSwxLjM3My0zLjE4NiwxLjM3My00LjQ5MWMwLTAuOTk4LTAuMjc4LTEuNjA0LTAuODI2LTEuODAzIGMtMC44NjQtMC4zMTMtMi4xNzIsMC40MjctMi43MjksMS4wOTZsLTAuMzg1LTAuMzJjMC42NTMtMC43ODMsMi4xNTctMS42NTYsMy4yODMtMS4yNDVjMC41MjcsMC4xOSwxLjE1NiwwLjc0LDEuMTU2LDIuMjcyIEMzMy4yNDcsMTcuNTE0LDMyLjc2NSwxOS4xMDUsMzEuODEzLDIwLjg1NHoiPjwvcGF0aD48cmVjdCB3aWR0aD0iOSIgaGVpZ2h0PSIuNSIgeD0iMzAuNSIgeT0iMTcuMjUiIGZpbGw9IiMyMTIxMjEiPjwvcmVjdD48cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIuNSIgeD0iMjUiIHk9IjIxLjI1IiBmaWxsPSIjMjEyMTIxIj48L3JlY3Q+PHJlY3Qgd2lkdGg9IjUiIGhlaWdodD0iLjUiIHg9IjI1IiB5PSIyMy4yNSIgZmlsbD0iIzIxMjEyMSI+PC9yZWN0PjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9Ii41IiB4PSIzOSIgeT0iMjEuMjUiIGZpbGw9IiMyMTIxMjEiPjwvcmVjdD48cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIuNSIgeD0iMzkiIHk9IjIzLjI1IiBmaWxsPSIjMjEyMTIxIj48L3JlY3Q+PHBvbHlnb24gZmlsbD0iIzIxMjEyMSIgcG9pbnRzPSIzMS42MDcsMjAuODEzIDMxLjYwMiwyMC4zMTMgMzcuNDk3LDIwLjI1IDM3LjUwMywyMC43NSI+PC9wb2x5Z29uPjxwYXRoIGZpbGw9IiMyMTIxMjEiIGQ9Ik0zNy4xNCwyMC43NzJjLTAuMDM4LTAuMTA1LTAuOTE5LTIuNTk4LDAuMjE5LTQuMjE3YzAuNjA3LTAuODY2LDEuNjY1LTEuMzA2LDMuMTQyLTEuMzA2djAuNSBjLTEuMzA1LDAtMi4yMjQsMC4zNjctMi43MzIsMS4wOTNjLTAuOTg5LDEuNDA5LTAuMTY2LDMuNzM2LTAuMTU3LDMuNzZMMzcuMTQsMjAuNzcyeiI+PC9wYXRoPjxyZWN0IHdpZHRoPSIuNSIgaGVpZ2h0PSI2LjQwMyIgeD0iMzMuNzUiIHk9IjE5LjI5OCIgZmlsbD0iIzIxMjEyMSIgdHJhbnNmb3JtPSJyb3RhdGUoLTUxLjM0MSAzMy45OTggMjIuNSkiPjwvcmVjdD48Zz48cmVjdCB3aWR0aD0iNi40MDMiIGhlaWdodD0iLjUiIHg9IjMxLjc5OCIgeT0iMjIuMjUiIGZpbGw9IiMyMTIxMjEiIHRyYW5zZm9ybT0icm90YXRlKC0zOC42NTkgMzUgMjIuNSkiPjwvcmVjdD48L2c+PGc+PHBvbHlnb24gZmlsbD0iIzIxMjEyMSIgcG9pbnRzPSIzMywxMSAzNSwxNSAzNiwxMSI+PC9wb2x5Z29uPjwvZz4KPC9zdmc+" />
+            <h5 class="text-center">Tomcat</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img src="./img/xml.png" alt="" srcset="">
+            <h5 class="text-center">XML</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 sbox d-grid justify-content-center">
+            <img src="./img/json.png" alt="" srcset="">
+
+            <h5 class="text-center">JSON</h5>
           </div>
         </div>
       </div>
       <!-- Certications -->
       <div class="skills text-light" id="skills">
-            <div class="heading">
-              <h1 class=" m-5 p-4 text-light" data-aos="fade-down">Certicates<span> Owned </span></h1>
-            </div>
-            <div class="row mt-5 images">
-              <div class="col-md-3">
-                <img src="./docs/1.jpg"loading="lazy"  onclick="openModal();currentSlide(1)"    class="w-100 img-fluid hover-shadow  cursor">
-              </div>
-              <div class="col-md-3">
-                <img src="./docs/2.jpg" loading="lazy"   onclick="openModal();currentSlide(2)" class=" w-100 img-fluid hover-shadow cursor">
-              </div>
-              <div class="col-md-3">
-                <img src="./docs/3.jpg" loading="lazy"   onclick="openModal();currentSlide(3)" class="w-100 img-fluid hover-shadow cursor">
-              </div>
-              <div class="col-md-3">
-                <img src="./docs/4.jpg" loading="lazy"  onclick="openModal();currentSlide(4)" class=" w-100 img-fluid hover-shadow cursor">
-              </div>
-            </div>
-            <div class="row images">
-                <p class="text-center" onclick="openModal();currentSlide(5)">Click more...</p>
-            </div>
-            <div id="myModal" class="modal " tabindex="-1">
-              <div class="myModal-dialog modal-dialog-centered  ">
-                <div class="modal-content">
-                    <button type="button" class="btn-close close cursor ms-auto" data-bs-dismiss="modal"  onclick="closeModal()" >&times;</button>
-                  <div class="modal-body"> 
-                    <div class="mySlides">
-                      <div class="numbertext">1 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/1.jpg" loading="lazy"  class="img-fluid ">
-                      </div>
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">2 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/2.jpg" loading="lazy"  class="img-fluid ">
-                      </div>              
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">3 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/3.jpg" loading="lazy"  class="img-fluid ">
-                      </div>  
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">4 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/4.jpg" loading="lazy"  class="img-fluid ">
-                      </div>
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">4 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/4.jpg" loading="lazy"  class="img-fluid ">
-                      </div>
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">5 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/5.jpg" loading="lazy"  class="img-fluid ">
-                      </div>
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">6 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/6.jpg" loading="lazy"  class="img-fluid ">
-                      </div>
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">7 / 8</div>
-                      <div class="text-center">
-                        <img src="./docs/7.jpg" loading="lazy"  class="img-fluid ">
-                      </div>
-                    </div>
-                    <div class="mySlides">
-                      <div class="numbertext">8/ 8</div>
-                      <div class="text-center">
-                        <img src="./docs/8.jpg" loading="lazy"  class="img-fluid ">
-                      </div>
-                    </div>
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="heading">
+          <h1 class=" m-5 p-4 text-light" data-aos="fade-down">Certicates<span> Owned </span></h1>
+        </div>
+        <div class="row mt-5 images">
+          <div class="col-md-3">
+            <img src="./docs/1.jpg" loading="lazy" onclick="openModal();currentSlide(1)" class="w-100 img-fluid hover-shadow  cursor">
+          </div>
+          <div class="col-md-3">
+            <img src="./docs/2.jpg" loading="lazy" onclick="openModal();currentSlide(2)" class=" w-100 img-fluid hover-shadow cursor">
+          </div>
+          <div class="col-md-3">
+            <img src="./docs/3.jpg" loading="lazy" onclick="openModal();currentSlide(3)" class="w-100 img-fluid hover-shadow cursor">
+          </div>
+          <div class="col-md-3">
+            <img src="./docs/4.jpg" loading="lazy" onclick="openModal();currentSlide(4)" class=" w-100 img-fluid hover-shadow cursor">
+          </div>
+        </div>
+        <div class="row images">
+          <p class="text-center" onclick="openModal();currentSlide(5)">Click more...</p>
+        </div>
+        <div id="myModal" class="modal " tabindex="-1">
+          <div class="myModal-dialog modal-dialog-centered  ">
+            <div class="modal-content">
+              <button type="button" class="btn-close close cursor ms-auto" data-bs-dismiss="modal" onclick="closeModal()">&times;</button>
+              <div class="modal-body">
+                <div class="mySlides">
+                  <div class="numbertext">1 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/1.jpg" loading="lazy" class="img-fluid ">
                   </div>
-                  <div class="modal-footer">
-                    <div class="row">
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/1.jpg" loading="lazy"  style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-                      </div>
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/2.jpg"  loading="lazy" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-                      </div>
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/3.jpg" loading="lazy"  style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                      </div>
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/4.jpg"  loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                      </div>
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/5.jpg"  loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                      </div>
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/6.jpg"  loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                      </div>
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/7.jpg"  loading="lazy"  style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                      </div>
-                      <div class="col">
-                        <img class="demo cursor" src="./docs/8.jpg" loading="lazy"  style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                      </div>
-                    </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">2 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/2.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">3 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/3.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">4 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/4.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">4 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/4.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">5 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/5.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">6 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/6.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">7 / 8</div>
+                  <div class="text-center">
+                    <img src="./docs/7.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">8/ 8</div>
+                  <div class="text-center">
+                    <img src="./docs/8.jpg" loading="lazy" class="img-fluid ">
+                  </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <div class="modal-footer">
+                <div class="row">
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/1.jpg" loading="lazy" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                  </div>
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/2.jpg" loading="lazy" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                  </div>
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/3.jpg" loading="lazy" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                  </div>
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/4.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                  </div>
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/5.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                  </div>
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/6.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                  </div>
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/7.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                  </div>
+                  <div class="col">
+                    <img class="demo cursor" src="./docs/8.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
       </div>
       <!-- review  -->
       <div class="review text-light" id="review">
@@ -431,23 +453,7 @@
               <div class="img-text mt-3">
                 <h4>Nandhini Asst.Prof</h4>
                 <p>He is a silent and more listening student in ever i seen.</p>
-                <h6> Ratings: 
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4" >
-            <div class="single-box  text-center">
-              <div class="img-area"><i class="fas fa-user-tie"></i></div>
-              <div class="img-text mt-3">
-                <h4>Sakthivel HOD</h4>
-                <p>He is a hard working student and a well disciplined student.</p>
-                <h6> Ratings: 
+                <h6> Ratings:
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -461,9 +467,25 @@
             <div class="single-box  text-center">
               <div class="img-area"><i class="fas fa-user-tie"></i></div>
               <div class="img-text mt-3">
-                <h4>Prakash  Asst.Prof</h4>
+                <h4>Sakthivel HOD</h4>
+                <p>He is a hard working student and a well disciplined student.</p>
+                <h6> Ratings:
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-box  text-center">
+              <div class="img-area"><i class="fas fa-user-tie"></i></div>
+              <div class="img-text mt-3">
+                <h4>Prakash Asst.Prof</h4>
                 <p>He is a one of the best student in my class for best studying.</p>
-                <h6> Ratings: 
+                <h6> Ratings:
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -516,25 +538,26 @@
         </div>
       </div>
       <!-- footer section -->
-        <div class="icons d-flex justify-content-center">
-          <i class="fab fa-facebook-square pe-2 fs-4"></i>
-          <i class="fab fa-whatsapp-square pe-2 fs-4"></i>
-          <i class="fab fa-instagram-square pe-2 fs-4"></i>
-          <i class="fab fa-twitter-square pe-2 fs-4"></i>
-        </div>
-        <div class="footer">
-          <p class="text-center">@ 2022 india | developed by Sasikumar </p>
-        </div>
-       <!-- change theme color for small device -->
-    <div class="theme m-3">
-      <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme" > </button>
-      <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme" > </button>
-      <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme" > </button>
-      <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme" > </button>
-      <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme" > </button>
-      <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme" > </button>
+      <div class="icons d-flex justify-content-center">
+        <i class="fab fa-facebook-square pe-2 fs-4"></i>
+        <i class="fab fa-whatsapp-square pe-2 fs-4"></i>
+        <i class="fab fa-instagram-square pe-2 fs-4"></i>
+        <i class="fab fa-twitter-square pe-2 fs-4"></i>
+      </div>
+      <div class="footer">
+        <p class="text-center">@ 2023 india | developed by Sasikumar </p>
+      </div>
+      <!-- change theme color for small device -->
+      <div class="theme m-3">
+        <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme"> </button>
+        <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme"> </button>
+        <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme"> </button>
+        <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme"> </button>
+        <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme"> </button>
+        <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme"> </button>
+      </div>
     </div>
-    </div>
+
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Js cdn -->
@@ -543,4 +566,5 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./sasi.js"></script>
   </body>
+
 </html>
