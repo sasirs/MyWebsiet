@@ -61,20 +61,12 @@
               <a class="nav-link" href="#review">Reviews</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link mb-1" href="#contact">Contact</a>
             </li>
           </ul>
 
         </div>
-        <!-- theme for desktop -->
-        <div class="theme1">
-          <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme"> </button>
-          <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme"> </button>
-          <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme"> </button>
-          <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme"> </button>
-          <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme"> </button>
-          <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme"> </button>
-        </div>
+
       </div>
       <!-- home -->
       <div class="home text-light" id="home">
@@ -333,244 +325,342 @@
           </div>
         </div>
       </div>
-      <!-- Certications -->
-      <div class="skills text-light" id="skills">
-        <div class="heading">
-          <h1 class=" m-5 p-4 text-light" data-aos="fade-down">Certicates<span> Owned </span></h1>
-        </div>
-        <div class="row mt-5 images">
-          <div class="col-md-3">
-            <img src="./docs/DS.jpg" loading="lazy" onclick="openModal();currentSlide(1)" class="w-100 img-fluid hover-shadow  cursor">
-          </div>
-          <div class="col-md-3">
-            <img src="./docs/1.jpg" loading="lazy" onclick="openModal();currentSlide(1)" class="w-100 img-fluid hover-shadow  cursor">
-          </div>
-          <div class="col-md-3">
-            <img src="./docs/2.jpg" loading="lazy" onclick="openModal();currentSlide(2)" class=" w-100 img-fluid hover-shadow cursor">
-          </div>
-          <div class="col-md-3">
-            <img src="./docs/3.jpg" loading="lazy" onclick="openModal();currentSlide(3)" class="w-100 img-fluid hover-shadow cursor">
-          </div>
+    </div>
 
+    <!-- Projects -->
+    <div class="skills text-light" id="skills">
+      <div class="heading">
+        <h1 class=" m-5 p-4 text-light" data-aos="fade-down">Latest <span>Projects </span></h1>
+        <!-- <h1 class=" m-5 p-4 text-light" data-aos="fade-down"><span>Latest </span>Projects</h1> -->
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/1.jpg">
+            <div class="overlay">
+              <h3>Spark</h3>
+              <p>Spark is an advanced application meticulously crafted to provide real-time NASDAQ stock market data.</a>
+            </div>
+          </div>
         </div>
-        <div class="row images">
-          <p class="text-center" onclick="openModal();currentSlide(5)">Click more...</p>
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/2.jpg">
+            <div class="overlay">
+              <h3>Portfolio</h3>
+              <p>Crafted with precision and passion, showcasing my journey as a seasoned professional in the tech industry.</a>
+            </div>
+          </div>
         </div>
-        <div id="myModal" class="modal " tabindex="-1">
-          <div class="myModal-dialog modal-dialog-centered  ">
-            <div class="modal-content">
-              <button type="button" class="btn-close close cursor ms-auto" data-bs-dismiss="modal" onclick="closeModal()">&times;</button>
-              <div class="modal-body">
-                <div class="mySlides">
-                  <div class="numbertext">1 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/DS.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">2 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/1.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">3 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/2.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">4 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/3.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">5 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/4.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">6 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/4.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">7 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/5.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">8 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/6.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">9 / 8</div>
-                  <div class="text-center">
-                    <img src="./docs/7.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="numbertext">10/ 8</div>
-                  <div class="text-center">
-                    <img src="./docs/8.jpg" loading="lazy" class="img-fluid ">
-                  </div>
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              </div>
-              <div class="modal-footer">
-                <div class="row">
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/1.jpg" loading="lazy" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-                  </div>
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/2.jpg" loading="lazy" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-                  </div>
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/3.jpg" loading="lazy" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                  </div>
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/4.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                  </div>
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/5.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                  </div>
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/6.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                  </div>
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/7.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                  </div>
-                  <div class="col">
-                    <img class="demo cursor" src="./docs/8.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                  </div>
-                </div>
-              </div>
+
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/3.jpg">
+            <div class="overlay">
+              <h3>WhatsAppClone</h3>
+              <p>Mimics the functionality of the popular communication platform.</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/4.jpg">
+            <div class="overlay">
+              <h3>ChatApp</h3>
+              <p>Developed a modern and secure chat application for seamless real-time communication and collaboration among users.</a>
             </div>
           </div>
         </div>
       </div>
-      <!-- review  -->
-      <div class="review text-light" id="review">
-        <div class="heading">
-          <h1 class=" m-5 p-4 text-light" data-aos="fade-down"> <span class="fs-1">People</span> reviews </h1>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/5.jpg">
+            <div class="overlay">
+              <h3>AttendanceManagement</h3>
+              <p>Builded an efficient Attendance Management system for streamlined employee tracking and improved workforce efficiency</p>
+            </div>
+          </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-md-4">
-            <div class="single-box  text-center">
-              <div class="img-area"><i class="fas fa-user-tie"></i></div>
-              <div class="img-text mt-3">
-                <h4>Prabhat kumar sign</h4>
-                <p>Mr.Sasikumar consistently brings a fresh perspective to our projects, offering creative solutions and driving innovation. Their commitment to excellence has significantly elevated our team's performance.</p>
-                <h6> Ratings:
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <h6>
-              </div>
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/6.jpg">
+            <div class="overlay">
+              <h3>ResultManagement</h3>
+              <p>Crafting a Result Management system for simplified and accurate handling of academic performance data, ensuring effective evaluation</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="single-box  text-center">
-              <div class="img-area"><i class="fas fa-user-tie"></i></div>
-              <div class="img-text mt-3">
-                <h4>Andani</h4>
-                <p>Working with Mr.Sasikumar has been a pleasure. Their attention to detail and proactive mindset make them a reliable and effective team member, ensuring project success</p>
-                <h6> Ratings:
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <h6>
-              </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/1.jpg">
+            <div class="overlay">
+              <h3>College_Website</h3>
+              <p>Designing a dynamic College Website to provide comprehensive information</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="single-box  text-center">
-              <div class="img-area"><i class="fas fa-user-tie"></i></div>
-              <div class="img-text mt-3">
-                <h4>Ashutosh kumar</h4>
-                <p>Mr.Sasikumar is a true professional, always going above and beyond to meet deadlines and deliver exceptional results. Their strong work ethic and positive attitude have made a lasting impact on our team.</p>
-                <h6> Ratings:
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <h6>
-              </div>
+        </div>
+        <div class="col-md-3">
+          <div class="pbox">
+            <img alt="" src="./img/projects/5.jpg">
+            <div class="overlay">
+              <h3>PerformanceManagement</h3>
+              <p>Developing a Performance Management solution to optimize employee performance tracking.</p>
             </div>
           </div>
         </div>
       </div>
-      <!-- contact -->
-      <div class="contact text-light" id="contact">
-        <div class="heading">
-          <h1 class=" m-5 p-4 text-light" data-aos="fade-down">Contact <span class="fs-1">Me</span> </h1>
+
+    </div>
+
+    <!-- Certications -->
+    <div class="skills text-light" id="skills">
+      <div class="heading">
+        <h1 class=" m-5 p-4 text-light" data-aos="fade-down">Certicates<span> Owned </span></h1>
+      </div>
+      <div class="row mt-5 images">
+        <div class="col-md-3">
+          <img src="./docs/DS.jpg" loading="lazy" onclick="openModal();currentSlide(1)" class="w-100 img-fluid hover-shadow  cursor">
         </div>
-        <div class="row details">
-          <div class="col">
-            <h4>Get in Touch!</h4>
-            <p>I would love to respond to your quiaries and Feel free to ger touch with me.</p>
-            <div class="content">
-              <span><i class="fab fa-playstation pe-3"></i>Name</span>
-              <h4>Sasikumar</h4>
-              <span><i class="fa fa-map-marker-alt pe-3"></i>Location</span>
-              <h4>Tirupattur,Tamilnadu.635653</h4>
-              <span><i class="fas fa-envelope pe-3"></i>Email</span>
-              <h4>sasirs272@gmail.com</h4>
-              <span><i class="fas fa-mobile-alt pe-3"></i>Mobile No</span>
-              <h4>9047845338</h4>
+        <div class="col-md-3">
+          <img src="./docs/1.jpg" loading="lazy" onclick="openModal();currentSlide(1)" class="w-100 img-fluid hover-shadow  cursor">
+        </div>
+        <div class="col-md-3">
+          <img src="./docs/2.jpg" loading="lazy" onclick="openModal();currentSlide(2)" class=" w-100 img-fluid hover-shadow cursor">
+        </div>
+        <div class="col-md-3">
+          <img src="./docs/3.jpg" loading="lazy" onclick="openModal();currentSlide(3)" class="w-100 img-fluid hover-shadow cursor">
+        </div>
+
+      </div>
+      <div class="row images">
+        <p class="text-center" onclick="openModal();currentSlide(5)">Click more...</p>
+      </div>
+      <div id="myModal" class="modal " tabindex="-1">
+        <div class="myModal-dialog modal-dialog-centered  ">
+          <div class="modal-content">
+            <button type="button" class="btn-close close cursor ms-auto" data-bs-dismiss="modal" onclick="closeModal()">&times;</button>
+            <div class="modal-body">
+              <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/DS.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/1.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/2.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/3.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/4.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">6 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/4.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/5.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">8 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/6.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">9 / 8</div>
+                <div class="text-center">
+                  <img src="./docs/7.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">10/ 8</div>
+                <div class="text-center">
+                  <img src="./docs/8.jpg" loading="lazy" class="img-fluid ">
+                </div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-          </div>
-          <div class="col">
-            <h3 class="me">Messge Me</h3>
-            <form action="">
+            <div class="modal-footer">
               <div class="row">
-                <div class="col-sm-6"><input class="form-control" type="text" placeholder="Name" /></div>
-                <div class="col-sm-6"><input class="form-control" type="text" placeholder="Email" /></div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/1.jpg" loading="lazy" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                </div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/2.jpg" loading="lazy" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                </div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/3.jpg" loading="lazy" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/4.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/5.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/6.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/7.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="col">
+                  <img class="demo cursor" src="./docs/8.jpg" loading="lazy" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
               </div>
-              <div class="row">
-                <div class="col"><input class="form-control" type="text" placeholder="Subject" /></div>
-              </div>
-              <div class="row">
-                <div class="col"><textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Address.." rows="3"></textarea></div>
-              </div>
-              <div class="button d-grid justify-content-center">
-                <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
-      <!-- footer section -->
-      <div class="icons d-flex justify-content-center">
-        <i class="fab fa-facebook-square pe-2 fs-4"></i>
-        <i class="fab fa-whatsapp-square pe-2 fs-4"></i>
-        <i class="fab fa-instagram-square pe-2 fs-4"></i>
-        <!-- <i class="fab fa-twitter-square pe-2 fs-4"></i> -->
+    </div>
+    <!-- review  -->
+    <div class="review text-light" id="review">
+      <div class="heading">
+        <h1 class=" m-5 p-4 text-light" data-aos="fade-down"> <span class="fs-1">People</span> reviews </h1>
       </div>
-      <div class="footer">
-        <p class="text-center">@ 2023 india | developed by Sasikumar </p>
-        <!-- change theme color for small device -->
-        <div class="theme m-3">
-          <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme"> </button>
-          <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme"> </button>
-          <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme"> </button>
-          <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme"> </button>
-          <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme"> </button>
-          <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme"> </button>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="single-box  text-center">
+            <div class="img-area"><i class="fas fa-user-tie"></i></div>
+            <div class="img-text mt-3">
+              <h4>Prabhat kumar sign</h4>
+              <p>Mr.Sasikumar consistently brings a fresh perspective to our projects, offering creative solutions and driving innovation. Their commitment to excellence has significantly elevated our team's performance.</p>
+              <h6> Ratings:
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-box  text-center">
+            <div class="img-area"><i class="fas fa-user-tie"></i></div>
+            <div class="img-text mt-3">
+              <h4>Andani</h4>
+              <p>Working with Mr.Sasikumar has been a pleasure. Their attention to detail and proactive mindset make them a reliable and effective team member, ensuring project success</p>
+              <h6> Ratings:
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-box  text-center">
+            <div class="img-area"><i class="fas fa-user-tie"></i></div>
+            <div class="img-text mt-3">
+              <h4>Ashutosh kumar</h4>
+              <p>Mr.Sasikumar is a true professional, always going above and beyond to meet deadlines and deliver exceptional results. Their strong work ethic and positive attitude have made a lasting impact on our team.</p>
+              <h6> Ratings:
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <h6>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- contact -->
+    <div class="contact text-light" id="contact">
+      <div class="heading">
+        <h1 class=" m-5 p-4 text-light" data-aos="fade-down">Contact <span class="fs-1">Me</span> </h1>
+      </div>
+      <div class="row details">
+        <div class="col">
+          <h4>Get in Touch!</h4>
+          <p>I would love to respond to your quiaries and Feel free to ger touch with me.</p>
+          <div class="content">
+            <span><i class="fab fa-playstation pe-3"></i>Name</span>
+            <h4>Sasikumar</h4>
+            <span><i class="fa fa-map-marker-alt pe-3"></i>Location</span>
+            <h4>Tirupattur,Tamilnadu.635653</h4>
+            <span><i class="fas fa-envelope pe-3"></i>Email</span>
+            <h4>sasirs272@gmail.com</h4>
+            <span><i class="fas fa-mobile-alt pe-3"></i>Mobile No</span>
+            <h4>9047845338</h4>
+          </div>
+        </div>
+        <div class="col">
+          <h3 class="me">Messge Me</h3>
+          <form action="">
+            <div class="row">
+              <div class="col-sm-6"><input class="form-control" type="text" placeholder="Name" /></div>
+              <div class="col-sm-6"><input class="form-control" type="text" placeholder="Email" /></div>
+            </div>
+            <div class="row">
+              <div class="col"><input class="form-control" type="text" placeholder="Subject" /></div>
+            </div>
+            <div class="row">
+              <div class="col"><textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Address.." rows="3"></textarea></div>
+            </div>
+            <div class="button d-grid justify-content-center">
+              <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+    <div class="icons d-flex justify-content-center">
+      <i class="fab fa-facebook-square pe-2 fs-4"></i>
+      <i class="fab fa-whatsapp-square pe-2 fs-4"></i>
+      <i class="fab fa-instagram-square pe-2 fs-4"></i>
+      <!-- <i class="fab fa-twitter-square pe-2 fs-4"></i> -->
+    </div>
+    <div class="footer">
+      <p class="text-center">@ 2023 india | developed by Sasikumar </p>
+      <!-- change theme color for small device -->
+      <div class="theme m-3">
+        <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme"> </button>
+        <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme"> </button>
+        <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme"> </button>
+        <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme"> </button>
+        <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme"> </button>
+        <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme"> </button>
+      </div>
+      <!-- theme for desktop -->
+      <div class="theme1">
+        <button class="btn b1 p-2 m-1" onclick="theme('red')" id="theme"> </button>
+        <button class="btn b2 p-2 m-1" onclick="theme('pink')" id="theme"> </button>
+        <button class="btn b3 p-2 m-1" onclick="theme('blue')" id="theme"> </button>
+        <button class="btn b4 p-2 m-1" onclick="theme('orange')" id="theme"> </button>
+        <button class="btn b5 p-2 m-1" onclick="theme('yellow')" id="theme"> </button>
+        <button class="btn b6 p-2 m-1" onclick="theme('cyan')" id="theme"> </button>
+      </div>
+    </div>
 
     </div>
 

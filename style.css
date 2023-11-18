@@ -441,7 +441,9 @@ img.hover-shadow {
 /* general style */
 /* theme for desktop */
 .theme1 {
-  position: fixed;
+  /* position: fixed; */
+  display: flex;
+  justify-content: end;
   bottom: 5px;
   display: flex;
   cursor: pointer;
@@ -548,4 +550,72 @@ img.hover-shadow {
     text-decoration: none;
     justify-content: center;
   }
+}
+
+.wrapper {
+  padding: 10px 10%;
+}
+#card-area {
+  padding: 50px 0;
+}
+.pbox-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.pbox {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+.pbox img {
+  width: 100%;
+  height: 12rem;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.pbox .overlay {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(transparent, #29ed0baf 58%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 10px;
+  transition: height 0.5s;
+}
+.pbox .overlay h3 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 14px;
+  /* letter-spacing: 2px; */
+}
+.pbox .overlay a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 7px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px 15px;
+}
+.pbox:hover img {
+  transform: scale(1.1);
+}
+.pbox:hover .overlay {
+  height: 100%;
 }
